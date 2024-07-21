@@ -1,5 +1,8 @@
 {
     "domain": "leisure_pools",
-    "name": "Hello, state!",
-    "version": "0.0.0"
+    "name": "Leisure Pools Intergration",
+    "requirements": ["requests"],
+    "documentation": "https://github.com/stijn220/leisure-pools",
+    "codeowners": ["@stijn220"],
+    "version": "0.0.1"
   }

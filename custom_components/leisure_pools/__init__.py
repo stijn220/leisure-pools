@@ -1,7 +1,14 @@
-DOMAIN = 'leisure_pools'
+import logging
 
-async def async_setup(hass, config):
-    hass.states.async_set("leisure_pools.world", "Paulus")
+from homeassistant.helpers import discovery
+from homeassistant.core import HomeAssistant
 
-    # Return boolean to indicate that initialization was successful.
+_LOGGER = logging.getLogger(__name__)
+
+DOMAIN = "leisure_pools"
+
+def setup(hass: HomeAssistant, config: dict):
+    """Set up the Leisure Pools component."""
+    _LOGGER.info("Setting up Leisure Pools component")
+    hass.helpers.discovery.load_platform('light', DOMAIN, {}, config)
     return True

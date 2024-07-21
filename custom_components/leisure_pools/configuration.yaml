@@ -1,0 +1,4 @@
+leisure_pools:
+  host: "leisure_pools_host"
+  username: "your_username"
+  password: "your_password"
