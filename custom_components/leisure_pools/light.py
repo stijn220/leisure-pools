@@ -1,37 +1,22 @@
 import logging
-import requests
 import time
 from homeassistant.components.light import LightEntity
-from homeassistant.const import CONF_HOST, CONF_USERNAME, CONF_PASSWORD
+from homeassistant.helpers.update_coordinator import CoordinatorEntity
+from .const import DOMAIN, CONF_API_URL
+import requests
 
 _LOGGER = logging.getLogger(__name__)
 
-class LeisurePoolsLight(LightEntity):
+class LeisurePoolsLight(CoordinatorEntity, LightEntity):
     """Representation of a Leisure Pools light."""
 
-    def __init__(self, api_url, username, password):
+    def __init__(self, coordinator, config_entry):
         """Initialize the light."""
+        super().__init__(coordinator)
         self._is_on = False
-        self._api_url = api_url
-        self._username = username
-        self._password = password
-        self._login_url = f"{self._api_url}/cgi/login"
+        self._api_url = config_entry.data[CONF_API_URL]
+        self._session = coordinator.data
         self._write_tags_url = f"{self._api_url}/cgi/writeTags.json"
-        self.session = requests.Session()
-        self.login()
-
-    def login(self):
-        """Login to the Leisure Pools system."""
-        login_payload = {
-            "username": self._username,
-            "password": self._password
-        }
-        try:
-            response = self.session.post(self._login_url, data=login_payload)
-            response.raise_for_status()
-            _LOGGER.info("Login successful")
-        except requests.exceptions.RequestException as e:
-            _LOGGER.error(f"Login failed: {e}")
 
     def send_request(self, action, value):
         """Send request to the Leisure Pools system."""
@@ -42,7 +27,7 @@ class LeisurePoolsLight(LightEntity):
             'nocache': int(time.time() * 1000)  # Using timestamp as nocache value
         }
         try:
-            response = self.session.get(self._write_tags_url, params=params)
+            response = self._session.get(self._write_tags_url, params=params)
             response.raise_for_status()
             _LOGGER.info(f"Action '{action}' with value '{value}' sent successfully")
         except requests.exceptions.RequestException as e:
@@ -66,13 +51,11 @@ class LeisurePoolsLight(LightEntity):
 
     def turn_off(self, **kwargs):
         """Instruct the light to turn off."""
-        self.send_request('bLightsON.0', 0)
+        self.send_request('nLichtKleur.-1', 0)
         self._is_on = False
         self.schedule_update_ha_state()
 
-def setup_platform(hass, config, add_entities, discovery_info=None):
-    """Set up the Leisure Pools light platform."""
-    api_url = config[CONF_HOST]
-    username = config[CONF_USERNAME]
-    password = config[CONF_PASSWORD]
-    add_entities([LeisurePoolsLight(api_url, username, password)])
+async def async_setup_entry(hass, config_entry, async_add_entities):
+    """Set up Leisure Pools light based on a config entry."""
+    coordinator = hass.data[DOMAIN][config_entry.entry_id]
+    async_add_entities([LeisurePoolsLight(coordinator, config_entry)])
