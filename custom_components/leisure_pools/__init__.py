@@ -1,66 +1,82 @@
-import logging
-from datetime import timedelta
-from homeassistant.config_entries import ConfigEntry
-from homeassistant.core import HomeAssistant
-from homeassistant.helpers.update_coordinator import DataUpdateCoordinator, UpdateFailed
 import requests
 import time
+from homeassistant.helpers import discovery
+from .const import DOMAIN, CONF_API_URL, CONF_USERNAME, CONF_PASSWORD, SESSION_DURATION
 
-from .const import DOMAIN, CONF_API_URL, CONF_USERNAME, CONF_PASSWORD
+class LeisurePoolsAPI:
+    """Class to interact with Leisure Pools API."""
 
-_LOGGER = logging.getLogger(__name__)
+    def __init__(self, api_url, username, password):
+        self.api_url = api_url
+        self.username = username
+        self.password = password
+        self.session = requests.Session()
+        self.login_time = None
+        self._login()
 
-PLATFORMS = ["light"]
-
-def login(api_url, username, password):
-    """Login to the Leisure Pools system."""
-    session = requests.Session()
-    login_payload = {
-        "username": username,
-        "password": password
-    }
-    try:
-        response = session.post(f"{api_url}/cgi/login", data=login_payload)
+    def _login(self):
+        """Log in to the Leisure Pools API."""
+        login_url = f"{self.api_url}/cgi/login"
+        payload = {
+            "username": self.username,
+            "password": self.password
+        }
+        response = self.session.post(login_url, data=payload)
         response.raise_for_status()
-        _LOGGER.info("Login successful")
-        return session
-    except requests.exceptions.RequestException as e:
-        _LOGGER.error(f"Login failed: {e}")
-        raise UpdateFailed(f"Login failed: {e}")
+        self.login_time = time.time()
 
-async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
-    """Set up Leisure Pools from a config entry."""
+    def _is_session_expired(self):
+        """Check if the session has expired."""
+        if self.login_time is None:
+            return True
+        return (time.time() - self.login_time) > SESSION_DURATION
+
+    def ensure_logged_in(self):
+        """Ensure that the API session is valid."""
+        if self._is_session_expired():
+            self._login()
+
+    def send_request(self, action, value):
+        """Send a request to the API."""
+        self.ensure_logged_in()
+        write_tags_url = f"{self.api_url}/cgi/writeTags.json"
+        params = {
+            'n': 1,
+            't1': action,
+            'v1': value,
+            'nocache': int(time.time() * 1000)
+        }
+        response = self.session.get(write_tags_url, params=params)
+        response.raise_for_status()
+        return response.json()
+
+    def turn_on_lights(self):
+        """Turn on the lights."""
+        self.send_request('bLightsON.0', 1)
+        self.send_request('bLightsON.0', 0)
+
+    def turn_off_lights(self):
+        """Turn off the lights."""
+        self.send_request('nLichtKleur.-1', 0)
+
+async def async_setup_entry(hass, entry):
+    """Set up the Leisure Pools integration from a config entry."""
     api_url = entry.data[CONF_API_URL]
     username = entry.data[CONF_USERNAME]
     password = entry.data[CONF_PASSWORD]
 
-    def update_data():
-        """Fetch data from API."""
-        session = login(api_url, username, password)
-        return session
+    api = LeisurePoolsAPI(api_url, username, password)
+    hass.data[DOMAIN] = api
 
-    coordinator = DataUpdateCoordinator(
-        hass,
-        _LOGGER,
-        name="Leisure Pools",
-        update_method=update_data,
-        update_interval=timedelta(minutes=100),
+    # Add the light entity
+    hass.async_add_job(
+        discovery.async_load_platform(
+            hass,
+            'light',
+            DOMAIN,
+            {},
+            entry
+        )
     )
 
-    await coordinator.async_config_entry_first_refresh()
-
-    hass.data.setdefault(DOMAIN, {})
-    hass.data[DOMAIN][entry.entry_id] = coordinator
-
-    for platform in PLATFORMS:
-        hass.async_add_job(hass.config_entries.async_forward_entry_setup(entry, platform))
-
     return True
-
-async def async_unload_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
-    """Unload a config entry."""
-    unload_ok = await hass.config_entries.async_unload_platforms(entry, PLATFORMS)
-    if unload_ok:
-        hass.data[DOMAIN].pop(entry.entry_id)
-
-    return unload_ok
