@@ -1,0 +1,18 @@
+{
+    "title": "Leisure Pool",
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "host": "Host",
+                    "username": "Gebruikersnaam",
+                    "password": "Wachtwoord"
+                },
+                "description": "Verbind met je Leisure Pool-systeem."
+            }
+        },
+        "error": {
+            "login_failed": "Kan geen verbinding maken. Controleer je inloggegevens."
+        }
+    }    
+}

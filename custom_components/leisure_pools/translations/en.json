@@ -1,0 +1,19 @@
+{
+    "title": "Leisure Pool",
+        "config": {
+            "step": {
+                "user": {
+                    "data": {
+                        "host": "Host",
+                        "username": "Username",
+                        "password": "Password"
+                    },
+                    "description": "Connect to your Leisure Pool system."
+                }
+            },
+            "error": {
+                "login_failed": "Unable to connect. Please check your credentials."
+            }
+        }    
+}
+  

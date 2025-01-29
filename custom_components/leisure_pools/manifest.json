@@ -1,9 +1,12 @@
 {
-    "domain": "leisure_pools",
-    "name": "Leisure Pools",
-    "requirements": ["requests"],
-    "documentation": "https://github.com/stijn220/leisure-pools",
-    "codeowners": ["@stijn220"],
-    "version": "0.0.1",
-    "config_flow": true
-  }
+  "domain": "leisure_pool",
+  "name": "Leisure Pools",
+  "version": "1.0.0",
+  "documentation": "https://github.com/stijn220/leisure-pools",
+  "issue_tracker": "https://github.com/stijn220/leisure-pools/issues"
+  "requirements": [],
+  "dependencies": [],
+  "config_flow": true,
+  "iot_class": "local_polling",
+  "codeowners": ["@stijn220"]
+}
