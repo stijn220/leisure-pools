@@ -1,0 +1,24 @@
+{
+    "name": "Leisure Pools",
+    "content_in_root": true,
+    "installation_type": "repository",
+    "repository": "https://github.com/stijn220/leisure-pools",
+    "slug": "leisure_pools",
+    "topics": [
+      "home_assistant",
+      "custom_component",
+      "leisure_pools"
+    ],
+    "domain": "leisure_pools",
+    "documentation": "https://github.com/stijn220/leisure-pools",
+    "issues": "https://github.com/stijn220/leisure-pools/issues",
+    "changelog": "https://github.com/stijn220/leisure-pools/releases",
+    "dependencies": [],
+    "codeowners": ["@stijn220"],
+    "version": "1.0.0",
+    "logo": "https://leisurepoolsusa.com/wp-content/uploads/2020/04/Leisure-Pools-Logo-retina.svg",
+    "hacs": {
+      "visibility": "internal"
+    }
+  }
+  
