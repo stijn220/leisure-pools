@@ -1,0 +1,99 @@
+{
+  "host": "192.168.20.3",
+  "page_path": "/",
+  "sse_path": "/cgi/sse",
+  "min_period": 1000,
+  "duration": 8,
+  "output_dir": "test\\output\\20260321-152148",
+  "login": {
+    "status_code": 200,
+    "force": false,
+    "status_text": "#s_ok",
+    "cookies": {
+      "IDALToken": "9f872bc5919a71b0b6e8135f0f4b2d5d",
+      "INFO": "{\"g\":\"admin\",\"ot\":0,\"ex\":0,\"pwdd\":1,\"clientID\":1}"
+    }
+  },
+  "project": {
+    "project_relative_path": "workspace/esmart107_lp_20230309",
+    "normalized_project_path": "esmart107_lp_20230309",
+    "web_path": "/esmart107_lp_20230309/web/web",
+    "main_page": "/esmart107_lp_20230309/web/web/_webmain.html",
+    "index_page": "/esmart107_lp_20230309/web/web/index.html"
+  },
+  "config": {
+    "url": "http://192.168.20.3/esmart107_lp_20230309/web/web/config/conf.json",
+    "tag_count": 589,
+    "group_count": 28,
+    "alarm_count": 0
+  },
+  "webpage": {
+    "page_url": "http://192.168.20.3/esmart107_lp_20230309/web/web/_webmain.html",
+    "status_code": 200,
+    "asset_count": 8,
+    "downloaded_asset_count": 8,
+    "assets": [
+      {
+        "url": "http://192.168.20.3/images/hmistudio.ico",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "http://192.168.20.3/css/lib.min.css",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "http://192.168.20.3/css/core.min.css",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "http://192.168.20.3/css/pages/commons.css",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "http://192.168.20.3/js/hmi.libs.min.js",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "http://192.168.20.3/js/hmi.combined.min.js",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "http://192.168.20.3/js/page.combined.js",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "http://192.168.20.3/js/loadProject.js",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "discovered_cgi_paths": []
+  },
+  "sse_url": "http://192.168.20.3/cgi/sse?id=1774102908810948&minPeriod=1000",
+  "sse": {
+    "content_type": "text/event-stream",
+    "event_count": 28,
+    "setup_commands": [
+      {
+        "query": "na=*",
+        "result": "S_OK"
+      },
+      {
+        "query": "ng=8&g0=BU_Parameters%40%24GroupSubscrWgt%40%240&g1=COVER_LP%40%24GroupSubscrWgt%40%240&g2=Calendar%40%24GroupSubscrWgt%40%240&g3=Chloorshock%40%24GroupSubscrWgt%40%240&g4=ClockChange%40%24GroupSubscrWgt%40%240&g5=Debug_LP_COVER%40%24GroupSubscrWgt%40%240&g6=Debug_LP_ECO%40%24GroupSubscrWgt%40%240&g7=Home%40%24GroupSubscrWgt%40%240",
+        "result": "S_OK"
+      },
+      {
+        "query": "ng=8&g0=Hoofdmenu+Meetkamer%40%24GroupSubscrWgt%40%240&g1=Klokdata_klant%40%24GroupSubscrWgt%40%240&g2=OpvolgingRXHistoriek%40%24GroupSubscrWgt%40%240&g3=PH+StepByStep%40%24GroupSubscrWgt%40%240&g4=PH+en+RX+opvolging%40%24GroupSubscrWgt%40%240&g5=PopupCoverSafty%40%24GroupSubscrWgt%40%240&g6=Pump%40%24GroupSubscrWgt%40%240&g7=RX+History%40%24GroupSubscrWgt%40%240",
+        "result": "E_FAIL"
+      },
+      {
+        "query": "ng=8&g0=RealTrendMeetkamer%40%24GroupSubscrWgt%40%240&g1=SERVICE_WARMTEPOMP%40%24GroupSubscrWgt%40%240&g2=Service2%40%24GroupSubscrWgt%40%240&g3=Service3%40%24GroupSubscrWgt%40%240&g4=Service4%40%24GroupSubscrWgt%40%240&g5=Service5%40%24GroupSubscrWgt%40%240&g6=Service%40%24GroupSubscrWgt%40%240&g7=TrendMeetkamer%40%24GroupSubscrWgt%40%240",
+        "result": "S_OK"
+      },
+      {
+        "query": "ng=4&g0=TrendWarmtePomp%40%24GroupSubscrWgt%40%240&g1=Verbruik%40%24GroupSubscrWgt%40%240&g2=WarmtePomp%40%24GroupSubscrWgt%40%240&g3=eSMART107_LP_20230309%40%24GroupSubscrWgt%40%240",
+        "result": "S_OK"
+      }
+    ]
+  },
+  "logout": "1\n#S_OK"
+}

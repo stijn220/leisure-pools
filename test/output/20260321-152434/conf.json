@@ -1,0 +1,4371 @@
+{
+  "propsMap.json": {
+    "Button": {
+      "bdrImage": [
+        "ButtonWgt.bdrImage",
+        "ImageWgt1.bdrImage"
+      ]
+    },
+    "Bargraph": {
+      "min": [
+        "BargraphWgt.min",
+        "ScaleWgt.min",
+        "LabelsWgt.min"
+      ],
+      "max": [
+        "BargraphWgt.max",
+        "ScaleWgt.max",
+        "LabelsWgt.max"
+      ],
+      "visibility2": [
+        "TicksWgt.visibility2",
+        "ScaleWgt.visibility2",
+        "LabelsWgt.visibility2"
+      ],
+      "align": [
+        "TicksWgt.align",
+        "ScaleWgt.align",
+        "LabelsWgt.align"
+      ],
+      "reverseScale": [
+        "BargraphWgt.reverseScale",
+        "ScaleWgt.reverseScale",
+        "LabelsWgt.reverseScale",
+        "TicksWgt.reverseScale"
+      ],
+      "labelFreq": [
+        "TicksWgt.labelFreq",
+        "LabelsWgt.labelFreq"
+      ]
+    },
+    "Light": {
+      "bdrImage": [
+        "IndicatorWgt.bdrImage",
+        "ImageWgt1.bdrImage"
+      ]
+    },
+    "CheckBox": {
+      "Action": [
+        "*.hotspotbtn.onMouseClick"
+      ],
+      "CheckVisible": [
+        "*.plyrImg124.visibility"
+      ]
+    },
+    "ScatterDiagram": {
+      "xlabels": [
+        "GridWgt.gridX",
+        "LabelsWgt2.labelFreq",
+        "TicksWgt2.labelFreq"
+      ],
+      "ylabels": [
+        "GridWgt.gridY",
+        "LabelsWgt1.labelFreq",
+        "TicksWgt1.labelFreq"
+      ],
+      "ymin": [
+        "TrendWindowWgt1.y0"
+      ],
+      "xmin": [
+        "TrendWindowWgt1.min"
+      ],
+      "ymax": [
+        "TrendWindowWgt1.y1"
+      ],
+      "xmax": [
+        "TrendWindowWgt1.max"
+      ]
+    },
+    "Knob": {
+      "min": [
+        "NeedleWgt.min",
+        "LabelsWgt.min"
+      ],
+      "max": [
+        "NeedleWgt.max",
+        "LabelsWgt.max"
+      ],
+      "endAngle": [
+        "NeedleWgt.endAngle",
+        "LabelsWgt.endAngle",
+        "TicksWgt.endAngle"
+      ],
+      "reverseScale": [
+        "NeedleWgt.reverseScale",
+        "LabelsWgt.reverseScale"
+      ],
+      "startAngle": [
+        "NeedleWgt.startAngle",
+        "LabelsWgt.startAngle",
+        "TicksWgt.startAngle"
+      ],
+      "numStates": [
+        "NeedleWgt.numStates",
+        "TicksWgt.numStates",
+        "LabelsWgt.numStates"
+      ]
+    },
+    "Trend": {
+      "gridX": [
+        "GridWgt.gridX",
+        "LabelsWgt2.labelFreq"
+      ],
+      "gridY": [
+        "GridWgt.gridY",
+        "LabelsWgt1.labelFreq",
+        "TicksWgt1.labelFreq"
+      ],
+      "labelFreq": [
+        "LabelsWgt1.labelFreq",
+        "TicksWgt1.labelFreq"
+      ]
+    }
+  },
+  "tags.json": {
+    "Zondag0": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "M2004": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "B2A": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "B2B": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "L4": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "L5": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "B2C": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "B2D": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "B24": {
+      "t": 0,
+      "s": -1,
+      "rt": 50
+    },
+    "M2096": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M2007": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "Zondag1": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nKeuzeSnelheid": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Maandag0": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Vrijdag0": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zondag2": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D6921": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "D6922": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "D6913": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "L21": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D8": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zondag3": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zondag4": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zondag5": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zondag6": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zondag7": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zondag8": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zondag9": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zondag10": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zondag11": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zondag12": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zondag13": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zondag14": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zondag15": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zondag16": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zondag17": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zondag18": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zondag19": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zondag20": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zondag21": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zondag22": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zondag23": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Vrijdag1": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Vrijdag2": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Vrijdag3": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Vrijdag4": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Vrijdag5": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Vrijdag6": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Vrijdag7": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Vrijdag8": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Vrijdag9": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Vrijdag10": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Vrijdag11": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Vrijdag12": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Vrijdag13": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Vrijdag14": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Vrijdag15": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Vrijdag16": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Vrijdag17": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Vrijdag18": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Vrijdag19": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Vrijdag20": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Vrijdag21": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Vrijdag22": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Vrijdag23": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Woensdag0": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Woensdag1": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Woensdag2": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Woensdag3": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Woensdag4": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Woensdag5": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Woensdag6": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Woensdag7": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Woensdag8": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Woensdag9": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Woensdag10": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Woensdag11": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Woensdag12": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Woensdag13": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Woensdag14": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Woensdag15": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Woensdag16": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Woensdag17": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Woensdag18": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Woensdag19": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Woensdag20": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Woensdag21": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Woensdag22": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Woensdag23": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zaterdag0": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zaterdag1": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zaterdag2": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zaterdag3": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zaterdag4": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zaterdag5": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zaterdag6": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zaterdag7": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zaterdag8": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zaterdag9": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zaterdag10": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zaterdag11": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zaterdag12": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zaterdag13": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zaterdag14": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zaterdag15": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zaterdag16": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zaterdag17": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zaterdag18": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zaterdag19": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zaterdag20": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zaterdag21": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zaterdag22": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Zaterdag23": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Maandag1": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Maandag2": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Maandag3": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Maandag4": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Maandag5": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Maandag6": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Maandag7": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Maandag8": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Maandag9": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Maandag10": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Maandag11": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Maandag12": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Maandag13": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Maandag14": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Maandag15": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Maandag16": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Maandag17": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Maandag18": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Maandag19": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Maandag20": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Maandag21": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Maandag22": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Maandag23": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Dinsdag0": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Dinsdag1": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Dinsdag2": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Dinsdag3": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Dinsdag4": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Dinsdag5": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Dinsdag6": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Dinsdag7": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Dinsdag8": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Dinsdag9": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Dinsdag10": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Dinsdag11": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Dinsdag12": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Dinsdag13": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Dinsdag14": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Dinsdag15": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Dinsdag16": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Dinsdag17": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Dinsdag18": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Dinsdag19": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D26": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Dinsdag20": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Dinsdag21": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Dinsdag22": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Dinsdag23": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Donderdag0": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Donderdag1": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Donderdag2": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Donderdag3": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Donderdag4": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Donderdag5": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Donderdag6": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Donderdag7": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Donderdag8": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Donderdag9": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Donderdag10": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Donderdag11": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Donderdag12": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Donderdag13": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Donderdag14": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Donderdag15": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Donderdag16": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Donderdag17": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Donderdag18": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Donderdag19": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Donderdag20": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Donderdag21": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Donderdag22": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Donderdag23": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "bSelectedDayMonday": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "bSelectedDayTuesday": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "bSelectedDayWednesday": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "bSelectedDayThursday": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "bSelectedDayFriday": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "bSelectedDaySaturday": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "bSelectedDaySunday": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "nYear": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nMonth": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nDay": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nHour": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nMinutes": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nSeconds": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "Tag5": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nSnelheidPomp": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nBeginTijd": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nEindTijd": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nSnelheid1": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nSnelheid2": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nSnelheid3": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "bApplyChanges": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "bErrorWriting": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "nBannerAlarmen": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nBannerProces": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "bUnlockCover": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "nUnlockCoverColor": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "bOpenCover": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "nOpenCoverColor": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "bCloseCover": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "nCloseCover": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nBesturingJetPomp": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "bLightsON": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "nLichtKleur": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nPompMode": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nKeuzeManueleSnelheid": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nSnelheidVacuum": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nSnelheidBackwash": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nSnelheidNaspoelen": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nTijdVacuum": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nTijdBackwash": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nTijdNaspoelen": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nPompSnelheid_Tijden": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "bSave_Return": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "nKeuzeRemoteControlPB4": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "bActivatieInput4": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "bColorChanging": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "nTimeVacuum": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nTimeBackwash": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nTimeNaspoelen": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nCurrentPage": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "M7601": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "nPageRequest": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nWWCover": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "bCoverUnlocked": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "nWWService": {
+      "t": 6,
+      "s": -1,
+      "rt": 500
+    },
+    "bJetPompGekozen": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D1845": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1855": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1614": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "bTuiverlichtingGekozen": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "bUVLampGekozen": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "bChangeClock": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "bCancelChangeClock": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "nNewHour": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nNewMinutes": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nNewSeconds": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nNewDay": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nNewMonth": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nNewYear": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1492": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "M1623": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "nNewDayOftheWeek": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nCoverTiming": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nPositieRolluik": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "nMaxTijdLEDVerlichting": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nElapsedTijdLEDVerlichting": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "bKeuzeJetPomp": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "bKeuzeTuiverlichting": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "bKeuzeUV": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "nBesturingTuinVerlichting": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nBesturingUV": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "bVerlichtingUitBijCoverToe": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "bPompTijdensBewegingCover": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "npHDoseringMode": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "bpHDoseringManueel": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "nClDoseringMode": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "bClDoseringManueel": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "nElapsedTijdpHManueleDosering": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nElapsedTijdClManueleDosering": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "bCalibratiepH7": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "bCalibratiepH9": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "nCalibratiepH7": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "nCalibratiepH9": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "nPresetpH": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "nDeadBandpH": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "nPresetCl": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "nDeadBandCl": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "nOnTijdpH": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "nOffTijdpH": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "nOnTijdCl": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "nOffTijdCl": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "nOverDoseringTijdpH": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "nOverDoseringTijdCl": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "nPresetpHChloorshock": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "nPresetClChloorshock": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "nMaxTijdChloorshockpH": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "nMaxTijdChloorshockCl": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "bDoseringpHActief": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "bDoseringClActief": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "bChloorshockpHActief": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "bChloorshockClActief": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "nElapsedTimeOnTimepH": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nElapsedTimeOffTimepH": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nElapsedTimeOnTimeCl": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nElapsedTimeOffTimeCl": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nElapsedTimeOverdoseringpH": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nElapsedTimeOverdoseringCl": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "bChloorshock": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "nSkimmerSnelheid": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nSkimmerTijd": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nAlarmMinWaardepH": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nWarningMinWaardepH": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nWarningMaxWaardepH": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nAlarmMaxWaardepH": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nAlarmMinWaardeCl": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nWarningMinWaardeCl": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nWarningMaxWaardeCl": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nAlarmMaxWaardeCl": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nMetingpH": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "nMetingCl": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "bResetMeetkamerAlarmen": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "nTijdChloorshock1": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "nTijdChloorshock2": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "nTijdChloorshockH": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "nTijdChloorshockM": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "nTijdChloorshockS": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "nUitschakeltijdManPh": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nUitschakeltijdManCl": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nTypeJetpomp": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "bKeuzeKleurwissel": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "nKamerTemperatuur": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "bProcessValuesVisible": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "bStandaardParametersLaden": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "aMetingpH": {
+      "t": 2,
+      "s": 100,
+      "rt": 500
+    },
+    "aMetingCl": {
+      "t": 2,
+      "s": 100,
+      "rt": 500
+    },
+    "aXasMetingen": {
+      "t": 2,
+      "s": 100,
+      "rt": 500
+    },
+    "bRefreshTrend": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "nCalibratieCl465mV": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "bCalibratieCl465mV": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "nParameterpHplustoevoegen": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nMaxTijdUV": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nElapsedTijdUV": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "bElapsedTimeUVVisible": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "nStartTimeUVHour": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nStartTimeUVMinutes": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nKeuzeRemoteControlPB3": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "bBtStopPompActief": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "nStatusPomp": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nLPModeTijdBijMinFoutGC": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nLPModeTijdBijMaxFoutGC": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nLPModeTijdBijMinFoutOC": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nLPModeTijdBijMaxFoutOC": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nDoseerTijdPH": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nDoseerTijdRX": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nTijdVatPH": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nTijdVatRX": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "bResetTijdVatPH": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "bResetTijdVatRX": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D1671": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1672": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1673": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1674": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1681": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1682": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1683": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1684": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nTijdVoormeldingBusBijnaLeegPH": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nTijdMeldingBusLeegPH": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nTijdMeldingBusLeegRX": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "nTijdVoormeldingBusBijnaLeegRX": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D611": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1633": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1634": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1630": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1631": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1632": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1640": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1641": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1642": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1606": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1650": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1651": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1652": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1730": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1731": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1732": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1740": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1741": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1742": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1750": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1751": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1752": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1733": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1734": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1706": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1784": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1785": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1786": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1787": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D252": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1726": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1725": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "M50": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M51": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D24": {
+      "t": 7,
+      "s": -1,
+      "rt": 500
+    },
+    "D22": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D23": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D21": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1830": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1831": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1832": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1833": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D181": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D2900": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D2901": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D2902": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D2903": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D2908": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D2906": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D2905": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D2904": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D2909": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D2911": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D2910": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D2915": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D2914": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "M83": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M84": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D2913": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D2912": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "M707": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D2920": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D2919": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D2918": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D2917": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D2916": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "M1710": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M1711": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D2899": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D121": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "M740": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M1631": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M743": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M820": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M823": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M830": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M833": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M840": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M738": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D6131": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D6132": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D6133": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D6134": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D6135": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D5000": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D5001": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D5002": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D5007": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1607": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1707": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "M708": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M701": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D1553": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1554": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "M82": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D1534": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "M121": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "WA": {
+      "t": 3,
+      "s": -1,
+      "rt": 100
+    },
+    "D200": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D202": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "B22": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "B23": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "W4": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1535": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1536": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "W8": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "M2005": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D6900": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "D6901": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "M7600": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D6910": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "M7602": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M7603": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D6911": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "D6912": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "M7604": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D1555": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1556": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1557": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "M7605": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M7606": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M7607": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D6908": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "D1558": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "L20": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M7609": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D6920": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "D1565": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1566": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "SM8820": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D6930": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "D6931": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "D6915": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "M7611": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D6903": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "M702": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M703": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M704": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D78": {
+      "t": 6,
+      "s": -1,
+      "rt": 500
+    },
+    "D64": {
+      "t": 6,
+      "s": -1,
+      "rt": 500
+    },
+    "D160": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D182": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1604": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "M1604": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M1605": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D1609": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "D1844": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1843": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1842": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1841": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1840": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1850": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1851": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1852": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1853": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1854": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1559": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "M1610": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M1611": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D1522": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "M1620": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D260": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "M6": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D614": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1523": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1524": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1525": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1526": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1527": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1528": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1529": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "M1621": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M1622": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M105": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "B4": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "B5": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D1202": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D81_1": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D81_2": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D81_3": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D81_4": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D1181_1": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D1181_2": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D1181_3": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D1181_4": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D172": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D6940": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "D41": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "D42": {
+      "t": 2,
+      "s": -1,
+      "rt": 500
+    },
+    "D1182_4": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D1182_3": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D1182_2": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D1182_1": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D82_4": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D82_3": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D82_2": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D82_1": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D81_F": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D82_F": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M3": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M7580": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D1547": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "M7581": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M7582": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M7612": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D130": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1608": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "M7585": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D1563": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "sVersiePLC": {
+      "t": 9,
+      "s": 14,
+      "rt": 500
+    },
+    "L25": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M1630": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D1541": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1542": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1544": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D1543": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "D654": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "M1624": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M1640": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M1641": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "M1612": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D1564": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    },
+    "M1613": {
+      "t": 0,
+      "s": -1,
+      "rt": 500
+    },
+    "D1567": {
+      "t": 5,
+      "s": -1,
+      "rt": 500
+    }
+  },
+  "groups.json": {
+    "BU_Parameters@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "D121": 1,
+        "D5000": 1,
+        "D5001": 1,
+        "D5002": 1,
+        "D5007": 1,
+        "D6131": 1,
+        "D6132": 1,
+        "D6133": 1,
+        "D6134": 1,
+        "D6135": 1,
+        "M740": 1,
+        "M743": 1,
+        "M820": 1,
+        "M823": 1,
+        "M830": 1,
+        "M833": 1,
+        "M840": 1
+      }
+    },
+    "COVER_LP@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "B22": 1,
+        "B23": 1,
+        "B24": 1,
+        "B2A": 1,
+        "B2B": 1,
+        "B2C": 1,
+        "B2D": 1,
+        "D1534": 1,
+        "D1535": 1,
+        "D1536": 1,
+        "D200": 1,
+        "D202": 1,
+        "L4": 1,
+        "L5": 1,
+        "M121": 1,
+        "M2004": 1,
+        "M2005": 1,
+        "M2007": 1,
+        "M2096": 1,
+        "M701": 1,
+        "W4": 1,
+        "W8": 1,
+        "WA": 1,
+        "nOpenCoverColor": 1
+      }
+    },
+    "Calendar@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "System Time": 1
+      }
+    },
+    "Chloorshock@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "D181": 1,
+        "D26": 1,
+        "bChloorshock": 1,
+        "bProcessValuesVisible": 1,
+        "nKamerTemperatuur": 1,
+        "nMetingCl": 1,
+        "nMetingpH": 1,
+        "nPresetCl": 1,
+        "nPresetpH": 1,
+        "nTijdChloorshock1": 1,
+        "nTijdChloorshock2": 1,
+        "nTijdChloorshockH": 1,
+        "nTijdChloorshockM": 1,
+        "nTijdChloorshockS": 1
+      }
+    },
+    "ClockChange@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "Current project": 1,
+        "D5000": 1,
+        "D5001": 1,
+        "D5002": 1,
+        "D5007": 1,
+        "IP Address": 1,
+        "M82": 1,
+        "nNewDay": 1,
+        "nNewDayOftheWeek": 1,
+        "nNewHour": 1,
+        "nNewMinutes": 1,
+        "nNewMonth": 1,
+        "nNewSeconds": 1,
+        "nNewYear": 1,
+        "sVersiePLC": 1
+      }
+    },
+    "Debug_LP_COVER@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "B22": 1,
+        "B23": 1,
+        "B24": 1,
+        "L4": 1,
+        "M2004": 1,
+        "M2005": 1,
+        "M2007": 1,
+        "M2096": 1,
+        "M703": 1,
+        "W8": 1,
+        "WA": 1,
+        "nOpenCoverColor": 1
+      }
+    },
+    "Debug_LP_ECO@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "D6900": 1,
+        "D6901": 1,
+        "D6903": 1,
+        "D6910": 1,
+        "D6913": 1,
+        "D6915": 1,
+        "D6920": 1,
+        "D8": 1,
+        "L20": 1,
+        "L21": 1,
+        "M701": 1,
+        "M7600": 1,
+        "M7609": 1,
+        "M7611": 1,
+        "SM8820": 1
+      }
+    },
+    "Home@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "B4": 1,
+        "B5": 1,
+        "D1492": 1,
+        "D160": 1,
+        "D1606": 1,
+        "D1607": 1,
+        "D1706": 1,
+        "D1707": 1,
+        "D181": 1,
+        "D182": 1,
+        "D26": 1,
+        "D260": 1,
+        "D614": 1,
+        "D64": 1,
+        "D654": 1,
+        "D6900": 1,
+        "D6901": 1,
+        "D6903": 1,
+        "D6910": 1,
+        "L21": 1,
+        "M1622": 1,
+        "M1623": 1,
+        "M1624": 1,
+        "M701": 1,
+        "M702": 1,
+        "M7581": 1,
+        "M7582": 1,
+        "M7600": 1,
+        "M7612": 1,
+        "SM8820": 1,
+        "bColorChanging": 1,
+        "bCoverUnlocked": 1,
+        "bElapsedTimeUVVisible": 1,
+        "bJetPompGekozen": 1,
+        "bLightsON": 1,
+        "bOpenCover": 1,
+        "bProcessValuesVisible": 1,
+        "bTuiverlichtingGekozen": 1,
+        "bUVLampGekozen": 1,
+        "bUnlockCover": 1,
+        "nBannerAlarmen": 1,
+        "nBannerProces": 1,
+        "nBesturingJetPomp": 1,
+        "nBesturingTuinVerlichting": 1,
+        "nBesturingUV": 1,
+        "nCoverTiming": 1,
+        "nDay": 1,
+        "nElapsedTijdLEDVerlichting": 1,
+        "nElapsedTijdUV": 1,
+        "nHour": 1,
+        "nLichtKleur": 1,
+        "nMetingCl": 1,
+        "nMetingpH": 1,
+        "nMinutes": 1,
+        "nMonth": 1,
+        "nOpenCoverColor": 1,
+        "nPresetCl": 1,
+        "nPresetpH": 1,
+        "nSeconds": 1,
+        "nTimeBackwash": 1,
+        "nUnlockCoverColor": 1,
+        "nWWCover": 1,
+        "nWWService": 1,
+        "nYear": 1
+      }
+    },
+    "Hoofdmenu Meetkamer@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "D1604": 1,
+        "M1605": 1,
+        "M6": 1,
+        "bChloorshock": 1,
+        "bResetMeetkamerAlarmen": 1
+      }
+    },
+    "Klokdata_klant@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "D1542": 1,
+        "D1563": 1,
+        "Dinsdag0": 1,
+        "Dinsdag1": 1,
+        "Dinsdag10": 1,
+        "Dinsdag11": 1,
+        "Dinsdag12": 1,
+        "Dinsdag13": 1,
+        "Dinsdag14": 1,
+        "Dinsdag15": 1,
+        "Dinsdag16": 1,
+        "Dinsdag17": 1,
+        "Dinsdag18": 1,
+        "Dinsdag19": 1,
+        "Dinsdag2": 1,
+        "Dinsdag20": 1,
+        "Dinsdag21": 1,
+        "Dinsdag22": 1,
+        "Dinsdag23": 1,
+        "Dinsdag3": 1,
+        "Dinsdag4": 1,
+        "Dinsdag5": 1,
+        "Dinsdag6": 1,
+        "Dinsdag7": 1,
+        "Dinsdag8": 1,
+        "Dinsdag9": 1,
+        "Donderdag0": 1,
+        "Donderdag1": 1,
+        "Donderdag10": 1,
+        "Donderdag11": 1,
+        "Donderdag12": 1,
+        "Donderdag13": 1,
+        "Donderdag14": 1,
+        "Donderdag15": 1,
+        "Donderdag16": 1,
+        "Donderdag17": 1,
+        "Donderdag18": 1,
+        "Donderdag19": 1,
+        "Donderdag2": 1,
+        "Donderdag20": 1,
+        "Donderdag21": 1,
+        "Donderdag22": 1,
+        "Donderdag23": 1,
+        "Donderdag3": 1,
+        "Donderdag4": 1,
+        "Donderdag5": 1,
+        "Donderdag6": 1,
+        "Donderdag7": 1,
+        "Donderdag8": 1,
+        "Donderdag9": 1,
+        "L25": 1,
+        "M83": 1,
+        "M84": 1,
+        "Maandag0": 1,
+        "Maandag1": 1,
+        "Maandag10": 1,
+        "Maandag11": 1,
+        "Maandag12": 1,
+        "Maandag13": 1,
+        "Maandag14": 1,
+        "Maandag15": 1,
+        "Maandag16": 1,
+        "Maandag17": 1,
+        "Maandag18": 1,
+        "Maandag19": 1,
+        "Maandag2": 1,
+        "Maandag20": 1,
+        "Maandag21": 1,
+        "Maandag22": 1,
+        "Maandag23": 1,
+        "Maandag3": 1,
+        "Maandag4": 1,
+        "Maandag5": 1,
+        "Maandag6": 1,
+        "Maandag7": 1,
+        "Maandag8": 1,
+        "Maandag9": 1,
+        "Tag5": 1,
+        "Vrijdag0": 1,
+        "Vrijdag1": 1,
+        "Vrijdag10": 1,
+        "Vrijdag11": 1,
+        "Vrijdag12": 1,
+        "Vrijdag13": 1,
+        "Vrijdag14": 1,
+        "Vrijdag15": 1,
+        "Vrijdag16": 1,
+        "Vrijdag17": 1,
+        "Vrijdag18": 1,
+        "Vrijdag19": 1,
+        "Vrijdag2": 1,
+        "Vrijdag20": 1,
+        "Vrijdag21": 1,
+        "Vrijdag22": 1,
+        "Vrijdag23": 1,
+        "Vrijdag3": 1,
+        "Vrijdag4": 1,
+        "Vrijdag5": 1,
+        "Vrijdag6": 1,
+        "Vrijdag7": 1,
+        "Vrijdag8": 1,
+        "Vrijdag9": 1,
+        "Woensdag0": 1,
+        "Woensdag1": 1,
+        "Woensdag10": 1,
+        "Woensdag11": 1,
+        "Woensdag12": 1,
+        "Woensdag13": 1,
+        "Woensdag14": 1,
+        "Woensdag15": 1,
+        "Woensdag16": 1,
+        "Woensdag17": 1,
+        "Woensdag18": 1,
+        "Woensdag19": 1,
+        "Woensdag2": 1,
+        "Woensdag20": 1,
+        "Woensdag21": 1,
+        "Woensdag22": 1,
+        "Woensdag23": 1,
+        "Woensdag3": 1,
+        "Woensdag4": 1,
+        "Woensdag5": 1,
+        "Woensdag6": 1,
+        "Woensdag7": 1,
+        "Woensdag8": 1,
+        "Woensdag9": 1,
+        "Zaterdag0": 1,
+        "Zaterdag1": 1,
+        "Zaterdag10": 1,
+        "Zaterdag11": 1,
+        "Zaterdag12": 1,
+        "Zaterdag13": 1,
+        "Zaterdag14": 1,
+        "Zaterdag15": 1,
+        "Zaterdag16": 1,
+        "Zaterdag17": 1,
+        "Zaterdag18": 1,
+        "Zaterdag19": 1,
+        "Zaterdag2": 1,
+        "Zaterdag20": 1,
+        "Zaterdag21": 1,
+        "Zaterdag22": 1,
+        "Zaterdag23": 1,
+        "Zaterdag3": 1,
+        "Zaterdag4": 1,
+        "Zaterdag5": 1,
+        "Zaterdag6": 1,
+        "Zaterdag7": 1,
+        "Zaterdag8": 1,
+        "Zaterdag9": 1,
+        "Zondag0": 1,
+        "Zondag1": 1,
+        "Zondag10": 1,
+        "Zondag11": 1,
+        "Zondag12": 1,
+        "Zondag13": 1,
+        "Zondag14": 1,
+        "Zondag15": 1,
+        "Zondag16": 1,
+        "Zondag17": 1,
+        "Zondag18": 1,
+        "Zondag19": 1,
+        "Zondag2": 1,
+        "Zondag20": 1,
+        "Zondag21": 1,
+        "Zondag22": 1,
+        "Zondag23": 1,
+        "Zondag3": 1,
+        "Zondag4": 1,
+        "Zondag5": 1,
+        "Zondag6": 1,
+        "Zondag7": 1,
+        "Zondag8": 1,
+        "Zondag9": 1,
+        "bApplyChanges": 1,
+        "bPompTijdensBewegingCover": 1,
+        "bSave_Return": 1,
+        "bSelectedDayFriday": 1,
+        "bSelectedDayMonday": 1,
+        "bSelectedDaySaturday": 1,
+        "bSelectedDaySunday": 1,
+        "bSelectedDayThursday": 1,
+        "bSelectedDayTuesday": 1,
+        "bSelectedDayWednesday": 1,
+        "nBeginTijd": 1,
+        "nEindTijd": 1,
+        "nHour": 1,
+        "nPompSnelheid_Tijden": 1,
+        "nSnelheid1": 1,
+        "nSnelheid2": 1,
+        "nSnelheid3": 1,
+        "nSnelheidPomp": 1
+      }
+    },
+    "OpvolgingRXHistoriek@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "D181": 1,
+        "D26": 1,
+        "D2899": 1,
+        "D2900": 1,
+        "D2901": 1,
+        "D2902": 1,
+        "D2903": 1,
+        "D2904": 1,
+        "D2905": 1,
+        "D2906": 1,
+        "D2908": 1,
+        "D2911": 1,
+        "D2912": 1,
+        "D2913": 1,
+        "D2914": 1,
+        "D2915": 1,
+        "D2916": 1,
+        "D2917": 1,
+        "D2918": 1,
+        "D2919": 1,
+        "D2920": 1,
+        "M1710": 1,
+        "M1711": 1
+      }
+    },
+    "PH StepByStep@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "D1604": 1,
+        "D1606": 1,
+        "D1609": 1,
+        "D1614": 1,
+        "D181": 1,
+        "D1841": 1,
+        "D1842": 1,
+        "D1843": 1,
+        "D1844": 1,
+        "D1845": 1,
+        "D1851": 1,
+        "D1852": 1,
+        "D1853": 1,
+        "D1854": 1,
+        "D1855": 1,
+        "D26": 1,
+        "M105": 1,
+        "M1604": 1,
+        "bProcessValuesVisible": 1,
+        "bResetMeetkamerAlarmen": 1,
+        "nMetingpH": 1
+      }
+    },
+    "PH en RX opvolging@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "D1606": 1,
+        "D1630": 1,
+        "D1631": 1,
+        "D1632": 1,
+        "D1633": 1,
+        "D1634": 1,
+        "D1640": 1,
+        "D1641": 1,
+        "D1642": 1,
+        "D1650": 1,
+        "D1651": 1,
+        "D1652": 1,
+        "D1706": 1,
+        "D1730": 1,
+        "D1731": 1,
+        "D1732": 1,
+        "D1733": 1,
+        "D1734": 1,
+        "D1740": 1,
+        "D1741": 1,
+        "D1742": 1,
+        "D1750": 1,
+        "D1751": 1,
+        "D1752": 1,
+        "D181": 1,
+        "D21": 1,
+        "D22": 1,
+        "D26": 1,
+        "bProcessValuesVisible": 1,
+        "nMetingCl": 1,
+        "nMetingpH": 1,
+        "nPresetCl": 1,
+        "nPresetpH": 1
+      }
+    },
+    "PopupCoverSafty@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "M708": 1,
+        "bCloseCover": 1,
+        "nCoverTiming": 1,
+        "nOpenCoverColor": 1
+      }
+    },
+    "Pump@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "D160": 1,
+        "D611": 1,
+        "D654": 1,
+        "L25": 1,
+        "bBtStopPompActief": 1,
+        "nKeuzeManueleSnelheid": 1,
+        "nPompMode": 1,
+        "nStatusPomp": 1,
+        "nTimeBackwash": 1,
+        "nTimeNaspoelen": 1,
+        "nTimeVacuum": 1
+      }
+    },
+    "RX History@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "D181": 1,
+        "D26": 1,
+        "D2899": 1,
+        "D2900": 1,
+        "D2901": 1,
+        "D2902": 1,
+        "D2903": 1,
+        "D2904": 1,
+        "D2905": 1,
+        "D2906": 1,
+        "D2908": 1,
+        "D2911": 1,
+        "D2912": 1,
+        "D2913": 1,
+        "D2914": 1,
+        "D2915": 1,
+        "D2916": 1,
+        "D2917": 1,
+        "D2918": 1,
+        "D2919": 1,
+        "D2920": 1,
+        "M1710": 1,
+        "M1711": 1
+      }
+    },
+    "RealTrendMeetkamer@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "D1181_1": 1,
+        "D1181_2": 1,
+        "D1181_3": 1,
+        "D1181_4": 1,
+        "D160": 1,
+        "D1606": 1,
+        "D1706": 1,
+        "D614": 1,
+        "D81_F": 1,
+        "M701": 1,
+        "bProcessValuesVisible": 1,
+        "nCoverTiming": 1,
+        "nMetingCl": 1,
+        "nMetingpH": 1
+      }
+    },
+    "SERVICE_WARMTEPOMP@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "D1554": 1,
+        "D1555": 1,
+        "D1556": 1,
+        "D1557": 1,
+        "D1558": 1,
+        "D1559": 1,
+        "D1564": 1,
+        "D1565": 1,
+        "D1566": 1,
+        "D1567": 1,
+        "D6901": 1,
+        "D6920": 1,
+        "D6921": 1,
+        "D6922": 1,
+        "D6930": 1,
+        "D6931": 1,
+        "M7600": 1,
+        "M7605": 1,
+        "M7609": 1,
+        "SM8820": 1
+      }
+    },
+    "Service2@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "D1522": 1,
+        "D1523": 1,
+        "D1524": 1,
+        "D1525": 1,
+        "D1526": 1,
+        "D1527": 1,
+        "D1528": 1,
+        "D1529": 1,
+        "D1541": 1,
+        "D1542": 1,
+        "D1543": 1,
+        "D1544": 1,
+        "D1553": 1,
+        "L25": 1,
+        "bVerlichtingUitBijCoverToe": 1,
+        "nMaxTijdLEDVerlichting": 1,
+        "nMaxTijdUV": 1,
+        "nSkimmerSnelheid": 1,
+        "nSkimmerTijd": 1,
+        "nSnelheidBackwash": 1,
+        "nSnelheidNaspoelen": 1,
+        "nSnelheidVacuum": 1,
+        "nStartTimeUVHour": 1,
+        "nStartTimeUVMinutes": 1,
+        "nTijdBackwash": 1,
+        "nTijdNaspoelen": 1,
+        "nTijdVacuum": 1,
+        "nTypeJetpomp": 1
+      }
+    },
+    "Service3@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "D1547": 1,
+        "bCalibratieCl465mV": 1,
+        "bCalibratiepH7": 1,
+        "bCalibratiepH9": 1,
+        "bDoseringClActief": 1,
+        "bDoseringpHActief": 1,
+        "bStandaardParametersLaden": 1,
+        "nAlarmMaxWaardeCl": 1,
+        "nAlarmMaxWaardepH": 1,
+        "nAlarmMinWaardeCl": 1,
+        "nAlarmMinWaardepH": 1,
+        "nCalibratieCl465mV": 1,
+        "nCalibratiepH7": 1,
+        "nCalibratiepH9": 1,
+        "nDeadBandCl": 1,
+        "nDeadBandpH": 1,
+        "nElapsedTimeOffTimeCl": 1,
+        "nElapsedTimeOffTimepH": 1,
+        "nElapsedTimeOnTimeCl": 1,
+        "nElapsedTimeOnTimepH": 1,
+        "nElapsedTimeOverdoseringCl": 1,
+        "nElapsedTimeOverdoseringpH": 1,
+        "nMetingCl": 1,
+        "nMetingpH": 1,
+        "nOffTijdCl": 1,
+        "nOffTijdpH": 1,
+        "nOnTijdCl": 1,
+        "nOnTijdpH": 1,
+        "nOverDoseringTijdCl": 1,
+        "nOverDoseringTijdpH": 1,
+        "nParameterpHplustoevoegen": 1,
+        "nPresetCl": 1,
+        "nPresetpH": 1,
+        "nTijdMeldingBusLeegPH": 1,
+        "nTijdMeldingBusLeegRX": 1,
+        "nTijdVoormeldingBusBijnaLeegPH": 1,
+        "nTijdVoormeldingBusBijnaLeegRX": 1,
+        "nUitschakeltijdManCl": 1,
+        "nUitschakeltijdManPh": 1,
+        "nWarningMaxWaardeCl": 1,
+        "nWarningMaxWaardepH": 1,
+        "nWarningMinWaardeCl": 1,
+        "nWarningMinWaardepH": 1
+      }
+    },
+    "Service4@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "D1608": 1,
+        "D1725": 1,
+        "D1726": 1,
+        "D1784": 1,
+        "D1785": 1,
+        "D1786": 1,
+        "D1787": 1,
+        "D1830": 1,
+        "D1831": 1,
+        "D1832": 1,
+        "D1833": 1,
+        "D24": 1,
+        "D252": 1,
+        "M50": 1,
+        "M51": 1,
+        "bChloorshockClActief": 1,
+        "bChloorshockpHActief": 1,
+        "bClDoseringManueel": 1,
+        "bpHDoseringManueel": 1,
+        "nClDoseringMode": 1,
+        "nLPModeTijdBijMaxFoutGC": 1,
+        "nLPModeTijdBijMaxFoutOC": 1,
+        "nLPModeTijdBijMinFoutGC": 1,
+        "nLPModeTijdBijMinFoutOC": 1,
+        "nMaxTijdChloorshockCl": 1,
+        "nMaxTijdChloorshockpH": 1,
+        "nPresetClChloorshock": 1,
+        "nPresetpHChloorshock": 1,
+        "npHDoseringMode": 1
+      }
+    },
+    "Service5@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "D1522": 1,
+        "D1541": 1,
+        "D1554": 1,
+        "D1558": 1,
+        "bKeuzeJetPomp": 1,
+        "bKeuzeTuiverlichting": 1,
+        "bKeuzeUV": 1,
+        "nKeuzeRemoteControlPB3": 1,
+        "nKeuzeRemoteControlPB4": 1
+      }
+    },
+    "Service@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "D1563": 1,
+        "Dinsdag0": 1,
+        "Dinsdag1": 1,
+        "Dinsdag10": 1,
+        "Dinsdag11": 1,
+        "Dinsdag12": 1,
+        "Dinsdag13": 1,
+        "Dinsdag14": 1,
+        "Dinsdag15": 1,
+        "Dinsdag16": 1,
+        "Dinsdag17": 1,
+        "Dinsdag18": 1,
+        "Dinsdag19": 1,
+        "Dinsdag2": 1,
+        "Dinsdag20": 1,
+        "Dinsdag21": 1,
+        "Dinsdag22": 1,
+        "Dinsdag23": 1,
+        "Dinsdag3": 1,
+        "Dinsdag4": 1,
+        "Dinsdag5": 1,
+        "Dinsdag6": 1,
+        "Dinsdag7": 1,
+        "Dinsdag8": 1,
+        "Dinsdag9": 1,
+        "Donderdag0": 1,
+        "Donderdag1": 1,
+        "Donderdag10": 1,
+        "Donderdag11": 1,
+        "Donderdag12": 1,
+        "Donderdag13": 1,
+        "Donderdag14": 1,
+        "Donderdag15": 1,
+        "Donderdag16": 1,
+        "Donderdag17": 1,
+        "Donderdag18": 1,
+        "Donderdag19": 1,
+        "Donderdag2": 1,
+        "Donderdag20": 1,
+        "Donderdag21": 1,
+        "Donderdag22": 1,
+        "Donderdag23": 1,
+        "Donderdag3": 1,
+        "Donderdag4": 1,
+        "Donderdag5": 1,
+        "Donderdag6": 1,
+        "Donderdag7": 1,
+        "Donderdag8": 1,
+        "Donderdag9": 1,
+        "M83": 1,
+        "M84": 1,
+        "Maandag0": 1,
+        "Maandag1": 1,
+        "Maandag10": 1,
+        "Maandag11": 1,
+        "Maandag12": 1,
+        "Maandag13": 1,
+        "Maandag14": 1,
+        "Maandag15": 1,
+        "Maandag16": 1,
+        "Maandag17": 1,
+        "Maandag18": 1,
+        "Maandag19": 1,
+        "Maandag2": 1,
+        "Maandag20": 1,
+        "Maandag21": 1,
+        "Maandag22": 1,
+        "Maandag23": 1,
+        "Maandag3": 1,
+        "Maandag4": 1,
+        "Maandag5": 1,
+        "Maandag6": 1,
+        "Maandag7": 1,
+        "Maandag8": 1,
+        "Maandag9": 1,
+        "Tag5": 1,
+        "Vrijdag0": 1,
+        "Vrijdag1": 1,
+        "Vrijdag10": 1,
+        "Vrijdag11": 1,
+        "Vrijdag12": 1,
+        "Vrijdag13": 1,
+        "Vrijdag14": 1,
+        "Vrijdag15": 1,
+        "Vrijdag16": 1,
+        "Vrijdag17": 1,
+        "Vrijdag18": 1,
+        "Vrijdag19": 1,
+        "Vrijdag2": 1,
+        "Vrijdag20": 1,
+        "Vrijdag21": 1,
+        "Vrijdag22": 1,
+        "Vrijdag23": 1,
+        "Vrijdag3": 1,
+        "Vrijdag4": 1,
+        "Vrijdag5": 1,
+        "Vrijdag6": 1,
+        "Vrijdag7": 1,
+        "Vrijdag8": 1,
+        "Vrijdag9": 1,
+        "Woensdag0": 1,
+        "Woensdag1": 1,
+        "Woensdag10": 1,
+        "Woensdag11": 1,
+        "Woensdag12": 1,
+        "Woensdag13": 1,
+        "Woensdag14": 1,
+        "Woensdag15": 1,
+        "Woensdag16": 1,
+        "Woensdag17": 1,
+        "Woensdag18": 1,
+        "Woensdag19": 1,
+        "Woensdag2": 1,
+        "Woensdag20": 1,
+        "Woensdag21": 1,
+        "Woensdag22": 1,
+        "Woensdag23": 1,
+        "Woensdag3": 1,
+        "Woensdag4": 1,
+        "Woensdag5": 1,
+        "Woensdag6": 1,
+        "Woensdag7": 1,
+        "Woensdag8": 1,
+        "Woensdag9": 1,
+        "Zaterdag0": 1,
+        "Zaterdag1": 1,
+        "Zaterdag10": 1,
+        "Zaterdag11": 1,
+        "Zaterdag12": 1,
+        "Zaterdag13": 1,
+        "Zaterdag14": 1,
+        "Zaterdag15": 1,
+        "Zaterdag16": 1,
+        "Zaterdag17": 1,
+        "Zaterdag18": 1,
+        "Zaterdag19": 1,
+        "Zaterdag2": 1,
+        "Zaterdag20": 1,
+        "Zaterdag21": 1,
+        "Zaterdag22": 1,
+        "Zaterdag23": 1,
+        "Zaterdag3": 1,
+        "Zaterdag4": 1,
+        "Zaterdag5": 1,
+        "Zaterdag6": 1,
+        "Zaterdag7": 1,
+        "Zaterdag8": 1,
+        "Zaterdag9": 1,
+        "Zondag0": 1,
+        "Zondag1": 1,
+        "Zondag10": 1,
+        "Zondag11": 1,
+        "Zondag12": 1,
+        "Zondag13": 1,
+        "Zondag14": 1,
+        "Zondag15": 1,
+        "Zondag16": 1,
+        "Zondag17": 1,
+        "Zondag18": 1,
+        "Zondag19": 1,
+        "Zondag2": 1,
+        "Zondag20": 1,
+        "Zondag21": 1,
+        "Zondag22": 1,
+        "Zondag23": 1,
+        "Zondag3": 1,
+        "Zondag4": 1,
+        "Zondag5": 1,
+        "Zondag6": 1,
+        "Zondag7": 1,
+        "Zondag8": 1,
+        "Zondag9": 1,
+        "bApplyChanges": 1,
+        "bPompTijdensBewegingCover": 1,
+        "bSave_Return": 1,
+        "bSelectedDayFriday": 1,
+        "bSelectedDayMonday": 1,
+        "bSelectedDaySaturday": 1,
+        "bSelectedDaySunday": 1,
+        "bSelectedDayThursday": 1,
+        "bSelectedDayTuesday": 1,
+        "bSelectedDayWednesday": 1,
+        "nBeginTijd": 1,
+        "nEindTijd": 1,
+        "nHour": 1,
+        "nPompSnelheid_Tijden": 1,
+        "nSnelheid1": 1,
+        "nSnelheid2": 1,
+        "nSnelheid3": 1,
+        "nSnelheidPomp": 1
+      }
+    },
+    "TrendMeetkamer@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "aMetingCl": 1,
+        "aMetingpH": 1,
+        "aXasMetingen": 1,
+        "bRefreshTrend": 1
+      }
+    },
+    "TrendWarmtePomp@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "D1182_1": 1,
+        "D1182_2": 1,
+        "D1182_3": 1,
+        "D1182_4": 1,
+        "D160": 1,
+        "D41": 1,
+        "D42": 1,
+        "D614": 1,
+        "D6901": 1,
+        "D6903": 1,
+        "D6910": 1,
+        "D81_F": 1,
+        "D82_F": 1,
+        "M701": 1,
+        "M7600": 1,
+        "bProcessValuesVisible": 1,
+        "nCoverTiming": 1
+      }
+    },
+    "Verbruik@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "D1671": 1,
+        "D1672": 1,
+        "D1673": 1,
+        "D1674": 1,
+        "D1681": 1,
+        "D1682": 1,
+        "D1683": 1,
+        "D1684": 1,
+        "nDoseerTijdPH": 1,
+        "nDoseerTijdRX": 1,
+        "nTijdVatPH": 1,
+        "nTijdVatRX": 1
+      }
+    },
+    "WarmtePomp@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "D6900": 1,
+        "D6908": 1,
+        "D6910": 1,
+        "D6911": 1,
+        "D6912": 1,
+        "D6915": 1,
+        "D6920": 1,
+        "L20": 1,
+        "M7600": 1,
+        "M7604": 1,
+        "M7607": 1,
+        "M7609": 1
+      }
+    },
+    "eSMART107_LP_20230309@$GroupSubscrWgt@$0": {
+      "tgs": {
+        "nCurrentPage": 1,
+        "nPageRequest": 1
+      }
+    }
+  },
+  "trends.json": {
+    "trends": {
+      "Trend1": {
+        "st": 60000,
+        "hr": false,
+        "ac": true,
+        "sz": 44640,
+        "subtrends": {
+          "TimeStamp": {
+            "mlData": {
+              "mlIds": [
+                8
+              ]
+            }
+          },
+          "sTrendRX": {
+            "mlData": {
+              "mlIds": [
+                9
+              ]
+            }
+          }
+        },
+        "t": 1
+      },
+      "Trend2": {
+        "st": 60000,
+        "hr": false,
+        "ac": true,
+        "sz": 44640,
+        "subtrends": {
+          "TimeStamp": {
+            "mlData": {
+              "mlIds": [
+                8
+              ]
+            }
+          },
+          "sTrendPH": {
+            "mlData": {
+              "mlIds": [
+                9
+              ]
+            }
+          }
+        },
+        "t": 1
+      },
+      "Trend3": {
+        "st": 60000,
+        "hr": false,
+        "ac": true,
+        "sz": 44640,
+        "subtrends": {
+          "TimeStamp": {
+            "mlData": {
+              "mlIds": [
+                8
+              ]
+            }
+          },
+          "sPositieCover": {
+            "mlData": {
+              "mlIds": [
+                9
+              ]
+            }
+          }
+        },
+        "t": 1
+      },
+      "Trend4": {
+        "st": 60000,
+        "hr": false,
+        "ac": true,
+        "sz": 44640,
+        "subtrends": {
+          "TimeStamp": {
+            "mlData": {
+              "mlIds": [
+                8
+              ]
+            }
+          },
+          "sActFrqCirculatiePomp": {
+            "mlData": {
+              "mlIds": [
+                9
+              ]
+            }
+          }
+        },
+        "t": 1
+      },
+      "Trend5": {
+        "st": 60000,
+        "hr": false,
+        "ac": true,
+        "sz": 44640,
+        "subtrends": {
+          "TimeStamp": {
+            "mlData": {
+              "mlIds": [
+                8
+              ]
+            }
+          },
+          "sWarmtePompTrndTemp": {
+            "mlData": {
+              "mlIds": [
+                9
+              ]
+            }
+          },
+          "sWarmtePompVerbruik": {
+            "mlData": {
+              "mlIds": [
+                9
+              ]
+            }
+          }
+        },
+        "t": 1
+      }
+    },
+    "mlTexts": {
+      "5": {
+        "L1": "Quality",
+        "L2": "Quality",
+        "L3": "Quality"
+      },
+      "6": {
+        "L1": "Time",
+        "L2": "Time",
+        "L3": "Time"
+      },
+      "7": {
+        "L1": "Date",
+        "L2": "Date",
+        "L3": "Date"
+      },
+      "8": {
+        "L1": "Timestamp",
+        "L2": "Timestamp",
+        "L3": "Timestamp"
+      },
+      "9": {
+        "L1": "",
+        "L2": "",
+        "L3": ""
+      }
+    }
+  },
+  "alarms.json": {
+    "defaultColors": {
+      "nTTC": "#000000",
+      "nTBC": "#ffffff",
+      "dTC": "#000000",
+      "dBG": "#ffffff",
+      "tTC": "#000000",
+      "tBG": "#ffffff",
+      "tNATC": "#000000",
+      "tNABC": "#ffffff",
+      "nTATC": "#000000",
+      "nTABC": "#ffffff",
+      "nTNATC": "#000000",
+      "nTNABG": "#ffffff",
+      "tATC": "#000000",
+      "tABG": "#ffffff",
+      "aTC": "#ff0000",
+      "aBG": "#ffff00"
+    },
+    "alarms": {},
+    "mlTexts": {
+      "8": {
+        "L1": "Disabled",
+        "L2": "Disabled",
+        "L3": "Disabled"
+      },
+      "9": {
+        "L1": "Triggered",
+        "L2": "Triggered",
+        "L3": "Triggered"
+      },
+      "10": {
+        "L1": "Triggered Not Acked",
+        "L2": "Triggered Not Acked",
+        "L3": "Triggered Not Acked"
+      },
+      "11": {
+        "L1": "Not Triggered Acked",
+        "L2": "Not Triggered Acked",
+        "L3": "Not Triggered Acked"
+      },
+      "12": {
+        "L1": "Not Triggered Not Acked",
+        "L2": "Not Triggered Not Acked",
+        "L3": "Not Triggered Not Acked"
+      },
+      "13": {
+        "L1": "Triggered Acked",
+        "L2": "Triggered Acked",
+        "L3": "Triggered Acked"
+      },
+      "14": {
+        "L1": "Not Triggered",
+        "L2": "Not Triggered",
+        "L3": "Not Triggered"
+      }
+    }
+  },
+  "audittrail.json": {
+    "enable": false
+  },
+  "indexedtagset.json": {},
+  "usermgmt.json": {
+    "securityEnable": true,
+    "forceRemoteLogin": true,
+    "admin": {
+      "homepages": {},
+      "users": [
+        "admin"
+      ],
+      "timers": [
+        0
+      ],
+      "exceptions": [
+        false
+      ],
+      "authUI": {
+        "actions": null,
+        "widgets": null
+      },
+      "useLastVisitedPage": true
+    },
+    "guest": {
+      "homepages": {},
+      "authUI": {
+        "actions": {
+          "PageRightTrendAction": 1,
+          "UpLoadRecipeAction": 1,
+          "WriteTagAction": 1,
+          "StepTagAction": 1,
+          "ZoomInTrendAction": 1,
+          "LaunchBrowserAction": 1,
+          "WriteCurrentRecipeSetAction": 1,
+          "DownLoadCurRecipeAction": 1,
+          "DownLoadRecipeAction": 1,
+          "ZoomOutTrendAction": 1,
+          "ZoomResetTrendAction": 1,
+          "RefreshTrendAction": 1,
+          "PauseTrendAction": 1,
+          "ToggleBitAction": 1,
+          "DumpTrendAction": 1,
+          "PageLeftTrendAction": 1,
+          "UpLoadCurRecipeAction": 1,
+          "DeleteTrendAction": 1,
+          "ScrollLeftTrendAction": 1,
+          "ScrollRightTrendAction": 1,
+          "SaveConfigurationAction": 1,
+          "ShowMessageAction": 1,
+          "DeleteEventArchiveAction": 1,
+          "PageDurationTrendAction": 1
+        },
+        "widgets": {
+          "TicksWgt": 2,
+          "TrendWindowWgt": 2,
+          "MsgTextWgt": 2,
+          "BargraphWgt": 2,
+          "ShapeWgt": 2,
+          "LabelsWgt": 2,
+          "TrendCurveWgt": 2,
+          "ComboBoxWgt": 2,
+          "NeedleWgt": 2,
+          "LabelWgt": 2,
+          "GridWgt": 2,
+          "IndicatorWgt": 2,
+          "LineWgt": 2,
+          "MultiStateImageWgt": 2,
+          "IPCameraWgt": 2,
+          "ImageWgt": 2,
+          "NumericWgt": 2,
+          "ScaleWgt": 2
+        }
+      },
+      "useLastVisitedPage": true
+    },
+    "unauthorized": {
+      "homepages": {},
+      "authUI": {
+        "actions": null,
+        "widgets": null
+      },
+      "useLastVisitedPage": true
+    },
+    "CoverUser": {
+      "homepages": {},
+      "users": [
+        "UserCover"
+      ],
+      "timers": [
+        1
+      ],
+      "exceptions": [
+        false
+      ],
+      "authUI": {
+        "actions": null,
+        "widgets": null
+      },
+      "useLastVisitedPage": true
+    },
+    "ServiceUser": {
+      "homepages": {},
+      "users": [
+        "UserService"
+      ],
+      "timers": [
+        1
+      ],
+      "exceptions": [
+        false
+      ],
+      "authUI": {
+        "actions": null,
+        "widgets": null
+      },
+      "useLastVisitedPage": true
+    },
+    "defUsr": "admin",
+    "defUsrGrp": "admin"
+  }
+}

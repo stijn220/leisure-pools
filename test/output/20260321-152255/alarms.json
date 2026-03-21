@@ -1,0 +1,58 @@
+{
+  "defaultColors": {
+    "nTTC": "#000000",
+    "nTBC": "#ffffff",
+    "dTC": "#000000",
+    "dBG": "#ffffff",
+    "tTC": "#000000",
+    "tBG": "#ffffff",
+    "tNATC": "#000000",
+    "tNABC": "#ffffff",
+    "nTATC": "#000000",
+    "nTABC": "#ffffff",
+    "nTNATC": "#000000",
+    "nTNABG": "#ffffff",
+    "tATC": "#000000",
+    "tABG": "#ffffff",
+    "aTC": "#ff0000",
+    "aBG": "#ffff00"
+  },
+  "alarms": {},
+  "mlTexts": {
+    "8": {
+      "L1": "Disabled",
+      "L2": "Disabled",
+      "L3": "Disabled"
+    },
+    "9": {
+      "L1": "Triggered",
+      "L2": "Triggered",
+      "L3": "Triggered"
+    },
+    "10": {
+      "L1": "Triggered Not Acked",
+      "L2": "Triggered Not Acked",
+      "L3": "Triggered Not Acked"
+    },
+    "11": {
+      "L1": "Not Triggered Acked",
+      "L2": "Not Triggered Acked",
+      "L3": "Not Triggered Acked"
+    },
+    "12": {
+      "L1": "Not Triggered Not Acked",
+      "L2": "Not Triggered Not Acked",
+      "L3": "Not Triggered Not Acked"
+    },
+    "13": {
+      "L1": "Triggered Acked",
+      "L2": "Triggered Acked",
+      "L3": "Triggered Acked"
+    },
+    "14": {
+      "L1": "Not Triggered",
+      "L2": "Not Triggered",
+      "L3": "Not Triggered"
+    }
+  }
+}

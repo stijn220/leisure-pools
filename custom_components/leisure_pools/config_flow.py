@@ -1,13 +1,13 @@
-# config_flow.py
 import logging
+
 from homeassistant import config_entries
 import voluptuous as vol
-from homeassistant.core import callback
+
 from .const import DOMAIN, CONF_HOST, CONF_USERNAME, CONF_PASSWORD
 from .api import LeisurePoolAPI
 
-
 _LOGGER = logging.getLogger(__name__)
+
 
 class LeisurePoolConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     """Handle a config flow for Leisure Pool."""
@@ -21,11 +21,15 @@ class LeisurePoolConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
             username = user_input[CONF_USERNAME]
             password = user_input[CONF_PASSWORD]
 
+            await self.async_set_unique_id(host)
+            self._abort_if_unique_id_configured()
+
             api = LeisurePoolAPI(host, username, password)
             login_success = await api.login()
+            await api.close()
 
             if login_success:
-                return self.async_create_entry(title="Leisure Pool", data=user_input)
+                return self.async_create_entry(title=f"Leisure Pool ({host})", data=user_input)
             else:
                 errors["base"] = "login_failed"
 

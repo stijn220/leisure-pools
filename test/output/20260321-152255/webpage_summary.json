@@ -1,0 +1,94 @@
+{
+  "page_url": "http://192.168.20.3/esmart107_lp_20230309/web/web/_webmain.html",
+  "status_code": 200,
+  "asset_count": 8,
+  "downloaded_asset_count": 8,
+  "assets": [
+    {
+      "url": "http://192.168.20.3/esmart107_lp_20230309/web/web/images/hmistudio.ico",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://192.168.20.3/esmart107_lp_20230309/web/web/css/lib.min.css",
+      "status_code": 200,
+      "file": "002_lib.min.css"
+    },
+    {
+      "url": "http://192.168.20.3/esmart107_lp_20230309/web/web/css/core.min.css",
+      "status_code": 200,
+      "file": "003_core.min.css"
+    },
+    {
+      "url": "http://192.168.20.3/esmart107_lp_20230309/web/web/css/pages/commons.css",
+      "status_code": 200,
+      "file": "004_commons.css"
+    },
+    {
+      "url": "http://192.168.20.3/esmart107_lp_20230309/web/web/js/hmi.libs.min.js",
+      "status_code": 200,
+      "file": "005_hmi.libs.min.js"
+    },
+    {
+      "url": "http://192.168.20.3/esmart107_lp_20230309/web/web/js/hmi.combined.min.js",
+      "status_code": 200,
+      "file": "006_hmi.combined.min.js"
+    },
+    {
+      "url": "http://192.168.20.3/esmart107_lp_20230309/web/web/js/page.combined.js",
+      "status_code": 200,
+      "file": "007_page.combined.js"
+    },
+    {
+      "url": "http://192.168.20.3/esmart107_lp_20230309/web/web/js/loadProject.js",
+      "status_code": 200,
+      "file": "008_loadProject.js"
+    }
+  ],
+  "discovered_cgi_paths": [
+    "/cgi/acknowledgeAlarms",
+    "/cgi/activateGroups.json",
+    "/cgi/addRecipeDataSet.json",
+    "/cgi/changePassword",
+    "/cgi/deactivateGroups.json",
+    "/cgi/delRecipeDataSet.json",
+    "/cgi/deleteEventArchive",
+    "/cgi/deleteTrendFile.json",
+    "/cgi/downloadRecipe.json",
+    "/cgi/dumpRecipe.json",
+    "/cgi/dumpTrendFile.json",
+    "/cgi/enableAlarms",
+    "/cgi/getClientID.json",
+    "/cgi/getDLSSettings",
+    "/cgi/getLocalTime",
+    "/cgi/getProperties",
+    "/cgi/getRecipeList.json",
+    "/cgi/getRecipeParams.json",
+    "/cgi/getRecipeSets.json",
+    "/cgi/getRecipeSetsParams.json",
+    "/cgi/getTime?nocache=1",
+    "/cgi/logout",
+    "/cgi/readAlarms",
+    "/cgi/readEvent.json",
+    "/cgi/readGroups.json",
+    "/cgi/readTags.json",
+    "/cgi/readTrend.json",
+    "/cgi/resetAlarms",
+    "/cgi/resetBitTags.json",
+    "/cgi/resetRecipe.json",
+    "/cgi/restoreRecipe.json",
+    "/cgi/saveConfiguration",
+    "/cgi/setBitTags.json",
+    "/cgi/setCurrRecipe.json",
+    "/cgi/setLocalTime",
+    "/cgi/setRecipeElemParam.json",
+    "/cgi/setRecipeParam.json",
+    "/cgi/setRecipeSet.json",
+    "/cgi/setRecipeSetParam.json",
+    "/cgi/setTime",
+    "/cgi/sse",
+    "/cgi/stepTags.json",
+    "/cgi/toggleBitTags.json",
+    "/cgi/uploadRecipe.json",
+    "/cgi/writeTags.json"
+  ]
+}

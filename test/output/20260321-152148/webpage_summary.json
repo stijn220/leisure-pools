@@ -1,0 +1,41 @@
+{
+  "page_url": "http://192.168.20.3/esmart107_lp_20230309/web/web/_webmain.html",
+  "status_code": 200,
+  "asset_count": 8,
+  "downloaded_asset_count": 8,
+  "assets": [
+    {
+      "url": "http://192.168.20.3/images/hmistudio.ico",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://192.168.20.3/css/lib.min.css",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://192.168.20.3/css/core.min.css",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://192.168.20.3/css/pages/commons.css",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://192.168.20.3/js/hmi.libs.min.js",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://192.168.20.3/js/hmi.combined.min.js",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://192.168.20.3/js/page.combined.js",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://192.168.20.3/js/loadProject.js",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "discovered_cgi_paths": []
+}

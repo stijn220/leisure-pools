@@ -1,0 +1,24 @@
+{
+  "host": "192.168.20.3",
+  "page_path": "/",
+  "sse_path": "/cgi/sse",
+  "duration": 10,
+  "output_dir": "test\\output\\20260321-151121",
+  "login": {
+    "status_code": 200,
+    "cookies": {
+      "IDALToken": "c4d9e08a90012fa5858cdc4c636b7a21",
+      "INFO": "{\"g\":\"admin\",\"ot\":0,\"ex\":0,\"pwdd\":1,\"clientID\":2}"
+    }
+  },
+  "webpage": {
+    "page_url": "http://192.168.20.3/",
+    "status_code": 200,
+    "asset_count": 0,
+    "downloaded_asset_count": 0,
+    "assets": [],
+    "discovered_cgi_paths": []
+  },
+  "sse_url": "http://192.168.20.3/cgi/sse?id=1774102282262790&na=*&1774102282262=",
+  "sse_error": "HTTP Error 500: Internal Server Error"
+}

@@ -1,0 +1,164 @@
+{
+  "host": "192.168.20.3",
+  "page_path": "/",
+  "sse_path": "/cgi/sse",
+  "min_period": 1000,
+  "duration": 10,
+  "output_dir": "test\\output\\20260321-152434",
+  "login": {
+    "status_code": 200,
+    "force": false,
+    "status_text": "#s_ok",
+    "cookies": {
+      "IDALToken": "d161a10d048a1c320a618573ad155c90",
+      "INFO": "{\"g\":\"admin\",\"ot\":0,\"ex\":0,\"pwdd\":1,\"clientID\":1}"
+    }
+  },
+  "project": {
+    "project_relative_path": "workspace/esmart107_lp_20230309",
+    "normalized_project_path": "esmart107_lp_20230309",
+    "web_path": "/esmart107_lp_20230309/web/web",
+    "main_page": "/esmart107_lp_20230309/web/web/_webmain.html",
+    "index_page": "/esmart107_lp_20230309/web/web/index.html"
+  },
+  "config": {
+    "url": "http://192.168.20.3/esmart107_lp_20230309/web/web/config/conf.json",
+    "tag_count": 589,
+    "group_count": 28,
+    "alarm_count": 0
+  },
+  "webpage": {
+    "page_url": "http://192.168.20.3/esmart107_lp_20230309/web/web/_webmain.html",
+    "status_code": 200,
+    "asset_count": 8,
+    "downloaded_asset_count": 8,
+    "assets": [
+      {
+        "url": "http://192.168.20.3/esmart107_lp_20230309/web/web/images/hmistudio.ico",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "http://192.168.20.3/esmart107_lp_20230309/web/web/css/lib.min.css",
+        "status_code": 200,
+        "file": "002_lib.min.css"
+      },
+      {
+        "url": "http://192.168.20.3/esmart107_lp_20230309/web/web/css/core.min.css",
+        "status_code": 200,
+        "file": "003_core.min.css"
+      },
+      {
+        "url": "http://192.168.20.3/esmart107_lp_20230309/web/web/css/pages/commons.css",
+        "status_code": 200,
+        "file": "004_commons.css"
+      },
+      {
+        "url": "http://192.168.20.3/esmart107_lp_20230309/web/web/js/hmi.libs.min.js",
+        "status_code": 200,
+        "file": "005_hmi.libs.min.js"
+      },
+      {
+        "url": "http://192.168.20.3/esmart107_lp_20230309/web/web/js/hmi.combined.min.js",
+        "status_code": 200,
+        "file": "006_hmi.combined.min.js"
+      },
+      {
+        "url": "http://192.168.20.3/esmart107_lp_20230309/web/web/js/page.combined.js",
+        "status_code": 200,
+        "file": "007_page.combined.js"
+      },
+      {
+        "url": "http://192.168.20.3/esmart107_lp_20230309/web/web/js/loadProject.js",
+        "status_code": 200,
+        "file": "008_loadProject.js"
+      }
+    ],
+    "discovered_cgi_paths": [
+      "/cgi/acknowledgeAlarms",
+      "/cgi/activateGroups.json",
+      "/cgi/addRecipeDataSet.json",
+      "/cgi/changePassword",
+      "/cgi/deactivateGroups.json",
+      "/cgi/delRecipeDataSet.json",
+      "/cgi/deleteEventArchive",
+      "/cgi/deleteTrendFile.json",
+      "/cgi/downloadRecipe.json",
+      "/cgi/dumpRecipe.json",
+      "/cgi/dumpTrendFile.json",
+      "/cgi/enableAlarms",
+      "/cgi/getClientID.json",
+      "/cgi/getDLSSettings",
+      "/cgi/getLocalTime",
+      "/cgi/getProperties",
+      "/cgi/getRecipeList.json",
+      "/cgi/getRecipeParams.json",
+      "/cgi/getRecipeSets.json",
+      "/cgi/getRecipeSetsParams.json",
+      "/cgi/getTime?nocache=1",
+      "/cgi/logout",
+      "/cgi/readAlarms",
+      "/cgi/readEvent.json",
+      "/cgi/readGroups.json",
+      "/cgi/readTags.json",
+      "/cgi/readTrend.json",
+      "/cgi/resetAlarms",
+      "/cgi/resetBitTags.json",
+      "/cgi/resetRecipe.json",
+      "/cgi/restoreRecipe.json",
+      "/cgi/saveConfiguration",
+      "/cgi/setBitTags.json",
+      "/cgi/setCurrRecipe.json",
+      "/cgi/setLocalTime",
+      "/cgi/setRecipeElemParam.json",
+      "/cgi/setRecipeParam.json",
+      "/cgi/setRecipeSet.json",
+      "/cgi/setRecipeSetParam.json",
+      "/cgi/setTime",
+      "/cgi/sse",
+      "/cgi/stepTags.json",
+      "/cgi/toggleBitTags.json",
+      "/cgi/uploadRecipe.json",
+      "/cgi/writeTags.json"
+    ]
+  },
+  "sse_url": "http://192.168.20.3/cgi/sse?id=1774103075627982&minPeriod=1000",
+  "sse": {
+    "content_type": "text/event-stream",
+    "event_count": 34,
+    "setup_commands": [
+      {
+        "query": "na=*",
+        "result": "S_OK"
+      },
+      {
+        "query": "ng=4&g0=BU_Parameters%40%24GroupSubscrWgt%40%240&g1=COVER_LP%40%24GroupSubscrWgt%40%240&g2=Calendar%40%24GroupSubscrWgt%40%240&g3=Chloorshock%40%24GroupSubscrWgt%40%240",
+        "result": "S_OK"
+      },
+      {
+        "query": "ng=4&g0=ClockChange%40%24GroupSubscrWgt%40%240&g1=Debug_LP_COVER%40%24GroupSubscrWgt%40%240&g2=Debug_LP_ECO%40%24GroupSubscrWgt%40%240&g3=Home%40%24GroupSubscrWgt%40%240",
+        "result": "S_OK"
+      },
+      {
+        "query": "ng=4&g0=Hoofdmenu%20Meetkamer%40%24GroupSubscrWgt%40%240&g1=Klokdata_klant%40%24GroupSubscrWgt%40%240&g2=OpvolgingRXHistoriek%40%24GroupSubscrWgt%40%240&g3=PH%20StepByStep%40%24GroupSubscrWgt%40%240",
+        "result": "S_OK"
+      },
+      {
+        "query": "ng=4&g0=PH%20en%20RX%20opvolging%40%24GroupSubscrWgt%40%240&g1=PopupCoverSafty%40%24GroupSubscrWgt%40%240&g2=Pump%40%24GroupSubscrWgt%40%240&g3=RX%20History%40%24GroupSubscrWgt%40%240",
+        "result": "S_OK"
+      },
+      {
+        "query": "ng=4&g0=RealTrendMeetkamer%40%24GroupSubscrWgt%40%240&g1=SERVICE_WARMTEPOMP%40%24GroupSubscrWgt%40%240&g2=Service2%40%24GroupSubscrWgt%40%240&g3=Service3%40%24GroupSubscrWgt%40%240",
+        "result": "S_OK"
+      },
+      {
+        "query": "ng=4&g0=Service4%40%24GroupSubscrWgt%40%240&g1=Service5%40%24GroupSubscrWgt%40%240&g2=Service%40%24GroupSubscrWgt%40%240&g3=TrendMeetkamer%40%24GroupSubscrWgt%40%240",
+        "result": "S_OK"
+      },
+      {
+        "query": "ng=4&g0=TrendWarmtePomp%40%24GroupSubscrWgt%40%240&g1=Verbruik%40%24GroupSubscrWgt%40%240&g2=WarmtePomp%40%24GroupSubscrWgt%40%240&g3=eSMART107_LP_20230309%40%24GroupSubscrWgt%40%240",
+        "result": "S_OK"
+      }
+    ]
+  },
+  "logout": "1\n#S_OK"
+}
