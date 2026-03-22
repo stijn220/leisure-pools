@@ -17,6 +17,14 @@ from .const import (
     LOGIN_URL,
     PROJECT_CONFIG_PATH,
     PROJECT_PROPERTY,
+    PUMP_MODE_AUTO,
+    PUMP_MODE_BACKWASH,
+    PUMP_MODE_OFF,
+    PUMP_MODE_RINSE,
+    PUMP_MODE_SPEED_1,
+    PUMP_MODE_SPEED_2,
+    PUMP_MODE_SPEED_3,
+    PUMP_MODE_VACUUM,
     SSE_PATH,
     WRITE_TAGS_URL,
 )
@@ -48,6 +56,7 @@ class LeisurePoolAPI:
         self._sse_task: asyncio.Task | None = None
         self._running = False
         self._sse_client_id: str | None = None
+        self._last_pump_mode: str | None = None
 
     async def _ensure_session(self) -> None:
         if self._session is None or self._session.closed:
@@ -262,6 +271,12 @@ class LeisurePoolAPI:
         await self.send_request("bLightsON.0", 0)
         return True
 
+    async def cycle_light_color(self) -> bool:
+        await self.send_request("bLightsON.0", 1)
+        await asyncio.sleep(1)
+        await self.send_request("bLightsON.0", 0)
+        return True
+
     async def turn_light_off(self) -> bool:
         await self.send_request("nLichtKleur.-1", 0)
         return True
@@ -279,6 +294,37 @@ class LeisurePoolAPI:
     async def pulse_cover_unlock(self) -> bool:
         await self.send_request("bUnlockCover.0", 1)
         await self.send_request("bUnlockCover.0", 0)
+        return True
+
+    async def async_set_pump_mode(self, mode: str) -> bool:
+        if mode == PUMP_MODE_AUTO:
+            await self.send_request("nPompMode.-1", 2)
+            self._last_pump_mode = mode
+            return True
+
+        if mode == PUMP_MODE_OFF:
+            await self.send_request("nPompMode.-1", 1)
+            await asyncio.sleep(0.5)
+            await self.send_request("nKeuzeManueleSnelheid.-1", 0)
+            self._last_pump_mode = mode
+            return True
+
+        manual_mode_map = {
+            PUMP_MODE_SPEED_1: 1,
+            PUMP_MODE_SPEED_2: 2,
+            PUMP_MODE_SPEED_3: 3,
+            PUMP_MODE_VACUUM: 4,
+            PUMP_MODE_BACKWASH: 5,
+            PUMP_MODE_RINSE: 6,
+        }
+        manual_mode = manual_mode_map.get(mode)
+        if manual_mode is None:
+            raise ValueError(f"Unsupported pump mode: {mode}")
+
+        await self.send_request("nPompMode.-1", 1)
+        await asyncio.sleep(0.5)
+        await self.send_request("nKeuzeManueleSnelheid.-1", manual_mode)
+        self._last_pump_mode = mode
         return True
 
     def get_tag_value(self, tag_name: str, default: Any = None) -> Any:
@@ -315,7 +361,7 @@ class LeisurePoolAPI:
     def is_cover_closed(self) -> bool | None:
         position = self.get_cover_position()
         if position is not None:
-            return position <= 0
+            return position <= 5
         unlocked = self.get_tag_value("bCoverUnlocked")
         if unlocked is None:
             return None
@@ -340,6 +386,40 @@ class LeisurePoolAPI:
         if unlocked is None:
             return None
         return bool(unlocked)
+
+    def get_pump_mode(self) -> str | None:
+        manual_mode = self.get_tag_value("nKeuzeManueleSnelheid")
+        manual_mode_map = {
+            1: PUMP_MODE_SPEED_1,
+            2: PUMP_MODE_SPEED_2,
+            3: PUMP_MODE_SPEED_3,
+            4: PUMP_MODE_VACUUM,
+            5: PUMP_MODE_BACKWASH,
+            6: PUMP_MODE_RINSE,
+        }
+        try:
+            if manual_mode not in (None, "", 0, "0"):
+                manual_mode_int = int(float(manual_mode))
+                if manual_mode_int in manual_mode_map:
+                    return manual_mode_map[manual_mode_int]
+        except (TypeError, ValueError):
+            pass
+
+        pump_mode = self.get_tag_value("nPompMode")
+        try:
+            if pump_mode not in (None, "") and int(float(pump_mode)) == 2:
+                return PUMP_MODE_AUTO
+        except (TypeError, ValueError):
+            pass
+
+        pump_status = self.get_tag_value("nStatusPomp")
+        try:
+            if pump_status not in (None, "") and int(float(pump_status)) == 0:
+                return PUMP_MODE_OFF
+        except (TypeError, ValueError):
+            pass
+
+        return self._last_pump_mode
 
     async def async_set_cover_unlocked(self, unlocked: bool) -> bool:
         current = self.is_cover_unlocked()

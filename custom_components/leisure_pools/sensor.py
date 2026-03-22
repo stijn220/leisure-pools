@@ -7,6 +7,7 @@ from homeassistant.components.sensor import SensorDeviceClass, SensorEntity, Sen
 
 from .const import DOMAIN
 from .entity import LeisurePoolEntity
+from .messages import get_alarm_message, get_banner_message
 
 
 ValueFn = Callable[[Any], Any]
@@ -15,6 +16,7 @@ ValueFn = Callable[[Any], Any]
 @dataclass(frozen=True, kw_only=True)
 class LeisurePoolSensorDescription(SensorEntityDescription):
     value_fn: ValueFn
+    code_tag: str | None = None
 
 
 SENSOR_DESCRIPTIONS = (
@@ -35,15 +37,26 @@ SENSOR_DESCRIPTIONS = (
         icon="mdi:test-tube",
     ),
     LeisurePoolSensorDescription(
+        key="motor_speed",
+        name="Motor Speed",
+        value_fn=lambda api: _scaled_value(api.get_tag_value("D160"), 100),
+        native_unit_of_measurement="Hz",
+        state_class=SensorStateClass.MEASUREMENT,
+        suggested_display_precision=2,
+        icon="mdi:engine",
+    ),
+    LeisurePoolSensorDescription(
         key="pool_alarm_banner",
         name="Alarm Banner",
-        value_fn=lambda api: _coerce_number(api.get_tag_value("nBannerAlarmen")),
+        value_fn=lambda api: get_alarm_message(_coerce_int(api.get_tag_value("nBannerAlarmen"))),
+        code_tag="nBannerAlarmen",
         icon="mdi:alert",
     ),
     LeisurePoolSensorDescription(
         key="pool_process_banner",
         name="Process Banner",
-        value_fn=lambda api: _coerce_number(api.get_tag_value("nBannerProces")),
+        value_fn=lambda api: get_banner_message(_coerce_int(api.get_tag_value("nBannerProces"))),
+        code_tag="nBannerProces",
         icon="mdi:waves",
     ),
     LeisurePoolSensorDescription(
@@ -109,6 +122,18 @@ class LeisurePoolSensor(LeisurePoolEntity, SensorEntity):
     @property
     def native_value(self):
         return self.entity_description.value_fn(self._api)
+
+    @property
+    def extra_state_attributes(self):
+        code_tag = self.entity_description.code_tag
+        if not code_tag:
+            return None
+
+        code = _coerce_int(self._api.get_tag_value(code_tag))
+        if code is None:
+            return None
+
+        return {"code": code}
 
 
 def _coerce_number(value: Any) -> int | float | None:

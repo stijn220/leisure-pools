@@ -1,0 +1,1119 @@
+type: grid
+cards:
+  - type: tile
+    entity: binary_sensor.pool_alarm_1
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_1
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_10
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_10
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_11
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_11
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_12
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_12
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_13
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_13
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_14
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_14
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_15
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_15
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_16
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_16
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_17
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_17
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_18
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_18
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_19
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_19
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_2
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_2
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_20
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_20
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_21
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_21
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_22
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_22
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_23
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_23
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_24
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_24
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_25
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_25
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_26
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_26
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_27
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_27
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_3
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_3
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_30
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_30
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_40
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_40
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_41
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_41
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_42
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_42
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_43
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_43
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_5
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_5
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_50
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_50
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_51
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_51
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_52
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_52
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_53
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_53
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_54
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_54
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_59
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_59
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_6
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_6
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_60
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_60
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_7
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_7
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_8
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_8
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_alarm_9
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_alarm_9
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+    
+  - type: tile
+    entity: binary_sensor.pool_process_banner_1
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_1
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_10
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_10
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_11
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_11
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_12
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_12
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_13
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_13
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_14
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_14
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_15
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_15
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_16
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_16
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_17
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_17
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_18
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_18
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_19
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_19
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_2
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_2
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_20
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_20
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_21
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_21
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_22
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_22
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_23
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_23
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_24
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_24
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_25
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_25
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_26
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_26
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_27
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_27
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_28
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_28
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_29
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_29
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_3
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_3
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_30
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_30
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_31
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_31
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_32
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_32
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_33
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_33
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_34
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_34
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_35
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_35
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_36
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_36
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_37
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_37
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_38
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_38
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_39
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_39
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_4
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_4
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_40
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_40
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_41
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_41
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_42
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_42
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_43
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_43
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_44
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_44
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_45
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_45
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_46
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_46
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_5
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_5
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_50
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_50
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_51
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_51
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_52
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_52
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_53
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_53
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_54
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_54
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_55
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_55
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_56
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_56
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_57
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_57
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_6
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_6
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_60
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_60
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_7
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_7
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_8
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_8
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
+  - type: tile
+    entity: binary_sensor.pool_process_banner_9
+    grid_options:
+      columns: full
+      rows: 1
+    visibility:
+      - condition: state
+        entity: binary_sensor.pool_process_banner_9
+        state: "on"
+    hide_state: true
+    vertical: false
+    features_position: bottom
