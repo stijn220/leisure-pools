@@ -9,7 +9,7 @@ from .const import CONF_HOST, CONF_PASSWORD, CONF_USERNAME, DOMAIN
 
 _LOGGER = logging.getLogger(__name__)
 
-PLATFORMS = ["light", "cover", "sensor"]
+PLATFORMS = ["light", "cover", "sensor", "switch"]
 
 
 async def async_setup(hass: HomeAssistant, config: dict):

@@ -22,3 +22,4 @@ EXTRA_SUBSCRIBED_TAGS = (
 
 LIGHT_ENTITY_UNIQUE_ID = "pool_light"
 COVER_ENTITY_UNIQUE_ID = "pool_cover"
+LOCK_SWITCH_UNIQUE_ID = "pool_cover_lock"

@@ -276,6 +276,11 @@ class LeisurePoolAPI:
         await self.send_request("bCloseCover.0", 0)
         return True
 
+    async def pulse_cover_unlock(self) -> bool:
+        await self.send_request("bUnlockCover.0", 1)
+        await self.send_request("bUnlockCover.0", 0)
+        return True
+
     def get_tag_value(self, tag_name: str, default: Any = None) -> Any:
         return self._tag_values.get(tag_name, default)
 
@@ -319,16 +324,28 @@ class LeisurePoolAPI:
     def get_cover_status(self) -> str:
         position = self.get_cover_position()
         if position is not None:
-            if position <= 0:
-                return "closed"
-            if position >= 100:
+            if position <= 5:
                 return "open"
+            if position >= 95:
+                return "closed"
             return "partial"
 
         unlocked = self.get_tag_value("bCoverUnlocked")
         if unlocked is None:
             return "unknown"
         return "unlocked" if bool(unlocked) else "locked"
+
+    def is_cover_unlocked(self) -> bool | None:
+        unlocked = self.get_tag_value("bCoverUnlocked")
+        if unlocked is None:
+            return None
+        return bool(unlocked)
+
+    async def async_set_cover_unlocked(self, unlocked: bool) -> bool:
+        current = self.is_cover_unlocked()
+        if current is None or current != unlocked:
+            await self.pulse_cover_unlock()
+        return True
 
     async def _sse_loop(self) -> None:
         retry_delay = 5
