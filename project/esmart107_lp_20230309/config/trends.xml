@@ -1,0 +1,163 @@
+<trends>
+ <multiLangs>
+  <langs defLangId="L1" curLangId="L1">
+   <lang removable="false" langCode="en-NL" langId="L1" writingsystem="Any" name="NED" defaultFont="Roboto"/>
+   <lang removable="false" langCode="en-US" langId="L2" writingsystem="Any" name="ENG" defaultFont="Roboto"/>
+   <lang removable="false" langCode="fr-BE" langId="L3" writingsystem="Any" name="FRANS" defaultFont="Roboto"/>
+  </langs>
+  <MLTexts>
+   <MLText L1="" L2="" L3="" id="9"/>
+   <MLText L1="Quality" L2="Quality" L3="Quality" id="5"/>
+   <MLText L1="Time" L2="Time" L3="Time" id="6"/>
+   <MLText L1="Date" L2="Date" L3="Date" id="7"/>
+   <MLText L1="Timestamp" L2="Timestamp" L3="Timestamp" id="8"/>
+  </MLTexts>
+ </multiLangs>
+ <commonTitleMLDesc Quality="[5@Trend]Quality" Time="[6@Trend]Time" Date="[7@Trend]Date" Timestamp="[8@Trend]Timestamp"/>
+ <trend type="1">
+  <name>Trend1</name>
+  <source></source>
+  <samplingTime>60000</samplingTime>
+  <highRes>false</highRes>
+  <active>true</active>
+  <compressed>false</compressed>
+  <size>44640</size>
+  <trigger></trigger>
+  <deviation>
+   <lowLimit>0</lowLimit>
+   <highLimit>0</highLimit>
+  </deviation>
+  <dataStorageLoc></dataStorageLoc>
+  <storageDevice>0</storageDevice>
+  <sources>
+   <dl title="[9@Trend]" comment="" name="sTrendRX">nMetingCl</dl>
+  </sources>
+  <sourceTs>false</sourceTs>
+  <autodumptrend>false</autodumptrend>
+  <autoDumpFormat>0</autoDumpFormat>
+  <autoDumpStorageDevice>0</autoDumpStorageDevice>
+  <autodumpFileNameFormat>Data/%n/%y%M%d/%h%m%s</autodumpFileNameFormat>
+  <autoDumpCSVFields>0;5;4</autoDumpCSVFields>
+  <autoDumpCSVCurves></autoDumpCSVCurves>
+  <autoDumpTimeSpec>0</autoDumpTimeSpec>
+  <autoDumpDateFormat></autoDumpDateFormat>
+  <autoDumpLangCode></autoDumpLangCode>
+ </trend>
+ <trend type="1">
+  <name>Trend2</name>
+  <source></source>
+  <samplingTime>60000</samplingTime>
+  <highRes>false</highRes>
+  <active>true</active>
+  <compressed>false</compressed>
+  <size>44640</size>
+  <trigger></trigger>
+  <deviation>
+   <lowLimit>0</lowLimit>
+   <highLimit>0</highLimit>
+  </deviation>
+  <dataStorageLoc></dataStorageLoc>
+  <storageDevice>0</storageDevice>
+  <sources>
+   <dl title="[9@Trend]" comment="" name="sTrendPH">nMetingpH</dl>
+  </sources>
+  <sourceTs>false</sourceTs>
+  <autodumptrend>false</autodumptrend>
+  <autoDumpFormat>0</autoDumpFormat>
+  <autoDumpStorageDevice>0</autoDumpStorageDevice>
+  <autodumpFileNameFormat>Data/%n/%y%M%d/%h%m%s</autodumpFileNameFormat>
+  <autoDumpCSVFields>0;5;4</autoDumpCSVFields>
+  <autoDumpCSVCurves></autoDumpCSVCurves>
+  <autoDumpTimeSpec>0</autoDumpTimeSpec>
+  <autoDumpDateFormat></autoDumpDateFormat>
+  <autoDumpLangCode></autoDumpLangCode>
+ </trend>
+ <trend type="1">
+  <name>Trend3</name>
+  <source></source>
+  <samplingTime>60000</samplingTime>
+  <highRes>false</highRes>
+  <active>true</active>
+  <compressed>false</compressed>
+  <size>44640</size>
+  <trigger></trigger>
+  <deviation>
+   <lowLimit>0</lowLimit>
+   <highLimit>0</highLimit>
+  </deviation>
+  <dataStorageLoc></dataStorageLoc>
+  <storageDevice>0</storageDevice>
+  <sources>
+   <dl title="[9@Trend]" comment="" name="sPositieCover">D1202</dl>
+  </sources>
+  <sourceTs>true</sourceTs>
+  <autodumptrend>false</autodumptrend>
+  <autoDumpFormat>1</autoDumpFormat>
+  <autoDumpStorageDevice>0</autoDumpStorageDevice>
+  <autodumpFileNameFormat>Data/%n/%y%M%d/%h%m%s</autodumpFileNameFormat>
+  <autoDumpCSVFields>0;5;4</autoDumpCSVFields>
+  <autoDumpCSVCurves>All curves</autoDumpCSVCurves>
+  <autoDumpTimeSpec>0</autoDumpTimeSpec>
+  <autoDumpDateFormat></autoDumpDateFormat>
+  <autoDumpLangCode></autoDumpLangCode>
+ </trend>
+ <trend type="1">
+  <name>Trend4</name>
+  <source></source>
+  <samplingTime>60000</samplingTime>
+  <highRes>false</highRes>
+  <active>true</active>
+  <compressed>false</compressed>
+  <size>44640</size>
+  <trigger></trigger>
+  <deviation>
+   <lowLimit>0</lowLimit>
+   <highLimit>0</highLimit>
+  </deviation>
+  <dataStorageLoc></dataStorageLoc>
+  <storageDevice>0</storageDevice>
+  <sources>
+   <dl title="[9@Trend]" comment="" name="sActFrqCirculatiePomp">D172</dl>
+  </sources>
+  <sourceTs>false</sourceTs>
+  <autodumptrend>false</autodumptrend>
+  <autoDumpFormat>0</autoDumpFormat>
+  <autoDumpStorageDevice>0</autoDumpStorageDevice>
+  <autodumpFileNameFormat>Data/%n/%y%M%d/%h%m%s</autodumpFileNameFormat>
+  <autoDumpCSVFields>0;5;4</autoDumpCSVFields>
+  <autoDumpCSVCurves>All curves</autoDumpCSVCurves>
+  <autoDumpTimeSpec>0</autoDumpTimeSpec>
+  <autoDumpDateFormat></autoDumpDateFormat>
+  <autoDumpLangCode></autoDumpLangCode>
+ </trend>
+ <trend type="1">
+  <name>Trend5</name>
+  <source></source>
+  <samplingTime>60000</samplingTime>
+  <highRes>false</highRes>
+  <active>true</active>
+  <compressed>false</compressed>
+  <size>44640</size>
+  <trigger></trigger>
+  <deviation>
+   <lowLimit>0</lowLimit>
+   <highLimit>0</highLimit>
+  </deviation>
+  <dataStorageLoc></dataStorageLoc>
+  <storageDevice>0</storageDevice>
+  <sources>
+   <dl title="[9@Trend]" comment="" name="sWarmtePompTrndTemp">D6901</dl>
+   <dl title="[9@Trend]" comment="" name="sWarmtePompVerbruik">D6940</dl>
+  </sources>
+  <sourceTs>false</sourceTs>
+  <autodumptrend>false</autodumptrend>
+  <autoDumpFormat>0</autoDumpFormat>
+  <autoDumpStorageDevice>0</autoDumpStorageDevice>
+  <autodumpFileNameFormat>Data/%n/%y%M%d/%h%m%s</autodumpFileNameFormat>
+  <autoDumpCSVFields>0;5;4</autoDumpCSVFields>
+  <autoDumpCSVCurves>All curves</autoDumpCSVCurves>
+  <autoDumpTimeSpec>0</autoDumpTimeSpec>
+  <autoDumpDateFormat></autoDumpDateFormat>
+  <autoDumpLangCode></autoDumpLangCode>
+ </trend>
+</trends>

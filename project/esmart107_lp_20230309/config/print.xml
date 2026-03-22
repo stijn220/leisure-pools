@@ -1,0 +1,5 @@
+<printdetails ramquota="16000000" maxpixmapsize="16000000" spoolMediaType="0" spoolFolder="d:/projectencloud2020/esco/leisure pools benelux/exor bazar/esmart107_lp_20230309/reportspool" diskquota="-1">
+ <printerPorts>
+  <port>File</port>
+ </printerPorts>
+</printdetails>

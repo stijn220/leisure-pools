@@ -1,0 +1,18 @@
+<protocols>
+ <protocol>
+  <id>prot1</id>
+  <name>MIQE</name>
+  <file>MIQE</file>
+  <configuration>CfgVer=1 ipAddress=192.168.3.10 port=5002 model=8 </configuration>
+  <autoImport></autoImport>
+  <enableOptimization>true</enableOptimization>
+  <enableDatagram>false</enableDatagram>
+  <offline_ort>60000</offline_ort>
+  <offline_opt>true</offline_opt>
+  <offline_rpt>3</offline_rpt>
+  <dictionaryname autoSync="false">[Mitsubishi iQ_Q_L ETH prot1] ExportedTags - Copie</dictionaryname>
+  <enableSimProtocol>true</enableSimProtocol>
+  <simFlags>0</simFlags>
+  <displayName>Mitsubishi iQ/Q/L ETH</displayName>
+ </protocol>
+</protocols>

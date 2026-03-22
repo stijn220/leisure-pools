@@ -1,0 +1,12 @@
+<fonts>
+ <font fontname="Roboto" langIds="1,2,3" size="162876" embed="true" removable="false" name="Roboto_Regular.ttf"/>
+ <font fontname="Roboto" langIds="1,2,3" size="162464" embed="true" removable="false" name="Roboto_Bold.ttf"/>
+ <font fontname="Roboto" langIds="1,2,3" size="161484" embed="true" removable="false" name="Roboto_Italic.ttf"/>
+ <font fontname="Droid Sans" langIds="1" size="190044" removable="false" name="DroidSans.ttf"/>
+ <font fontname="UNIT-A2" langIds="1" size="27204" removable="false" name="UNIT-A2.TTF"/>
+ <font fontname="Verdana" langIds="1" size="243304" removable="false" name="verdana.ttf"/>
+ <font fontname="Tahoma" langIds="1" size="867988" removable="false" name="tahomabd.ttf"/>
+ <font fontname="Tahoma" langIds="1" size="939280" removable="false" name="tahoma.ttf"/>
+ <font fontname="Arial" langIds="1" size="1036584" removable="false" name="arial.ttf"/>
+ <font fontname="Arial" langIds="1" size="980756" removable="false" name="arialbd.ttf"/>
+</fonts>

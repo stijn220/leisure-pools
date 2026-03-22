@@ -1,0 +1,203 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object ServerSynchEnable="local" holdTime="2000" diskSizes="128MB" longDateFormat="MM/DD/YY - hh:mm:ss" maxBandwidth="0" webConnectionMode="auto" browserOpt="1" staticOptEnable="true" class="ProjectWgt" autoRepeatPeriod="250" webInactivityTimeout="600" UserMgmtTmplType="Large" screenSaverTimeout="0" enableUserMgmt="true" browserOptForceLayers="1" decimalSymbol="." IncludeVNC="false" downloadPrepDone="true" pageName="eSMART107_LP_20230309" guid="657C52CC-B922-4E98-9B0C-CB8082335E47" screenSaverPage="0" qtft="true" IncludePDFReader="false" id="eSMART107_LP_20230309" ContextMenu="0" pageType="project" webShowRuntimeErrors="false" targetName="eSMART107" pageSize="640,480" orientation="0" shortDateFormat="DD/MM/YYYY" webMemoryThreshold="0" debugIP="127.0.0.1" thousandSymbol="," dataWndSize="0,70" TouchBuzzerTime="200" maxOpenDlgs="5" gesturePassthruDelay="200" onAccessDenied="0" listSeparator="," panelMemory="2GB" bgColorOption="0" targetType="Linux OE/un73" screenSaverDisplayTime="0" maxTrendPrintRows="10000" webMemoryAvailable="0" refreshTime="100" defaultPageSize="800,480" browserOptNativeRenderLoop="1" sdcards="0" manufacturerCode="506" KeyPadTmplType="KeyPadTemplates_medium">
+  <wgtStyle width="640" x="0" y="0" height="480" fitToSize="1" ver="040000100" v="04.00.00.100"/>
+  <dataLinks>
+   <dataLink readWrite="R" tagType="unsignedShort" attribute="ServerPageSynch" tag="nCurrentPage" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+   <dataLink readWrite="R" tagType="unsignedShort" attribute="ClientPageSynch" tag="nPageRequest" class="TagMgrWgt" widgetType="Project" sourceType="Tag" tagIndex="-1" dataSource="_TagMgr"/>
+  </dataLinks>
+  <object class="MultiLangMgrWgt" id="_MultiLangMgr" fileName="multilang.xml">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="PageMgrWgt" id="_PageMgr">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+   <categories>
+    <category defaultsize="800,480" minsize="0,0" maxsize="*,*" useragent="*" name="Unified" technology="7" home="Home.jmx">
+     <pages>
+      <page class="PageWgt" size="800,480" type="normal" name="Home" file="home.jmx"/>
+      <page class="PageWgt" size="800,480" type="normal" name="Service" file="service.jmx"/>
+      <page class="PageWgt" size="800,480" type="normal" name="Service2" file="service2.jmx"/>
+      <page class="PageWgt" size="800,480" type="normal" name="Pump" file="pump.jmx"/>
+      <page class="DialogWgt" size="350,400" type="dialog" name="ClockChange" file="clockchange.jmx"/>
+      <page class="PageWgt" size="800,480" type="normal" name="Service3" file="service3.jmx"/>
+      <page class="DialogWgt" size="500,300" type="dialog" name="TrendMeetkamer" file="trendmeetkamer.jmx"/>
+      <page class="PageWgt" size="800,480" type="normal" name="Klokdata_klant" file="klokdata_klant.jmx"/>
+      <page class="DialogWgt" size="360,300" type="dialog" name="PH en RX opvolging" file="ph en rx opvolging.jmx"/>
+      <page class="DialogWgt" size="220,300" type="dialog" name="Verbruik" file="verbruik.jmx"/>
+      <page class="DialogWgt" size="550,300" type="dialog" name="Hoofdmenu Meetkamer" file="hoofdmenu meetkamer.jmx"/>
+      <page class="DialogWgt" size="500,300" type="dialog" name="Chloorshock" file="chloorshock.jmx"/>
+      <page class="PageWgt" size="800,480" type="normal" name="Service4" file="service4.jmx"/>
+      <page class="DialogWgt" size="500,400" type="dialog" name="RX History" file="rx history.jmx"/>
+      <page class="PageWgt" size="800,480" type="normal" name="OpvolgingRXHistoriek" file="opvolgingrxhistoriek.jmx"/>
+      <page class="PageWgt" size="800,480" type="normal" name="BU_Parameters" file="bu_parameters.jmx"/>
+      <page class="DialogWgt" size="350,330" type="dialog" name="PopupCoverSafty" file="popupcoversafty.jmx"/>
+      <page class="PageWgt" size="800,480" type="normal" name="COVER_LP" file="cover_lp.jmx"/>
+      <page class="DialogWgt" size="550,350" type="dialog" name="WarmtePomp" file="warmtepomp.jmx"/>
+      <page class="PageWgt" size="800,480" type="normal" name="SERVICE_WARMTEPOMP" file="service_warmtepomp.jmx"/>
+      <page class="DialogWgt" size="550,350" type="dialog" name="Debug_LP_ECO" file="debug_lp_eco.jmx"/>
+      <page class="DialogWgt" size="550,265" type="dialog" name="Debug_LP_COVER" file="debug_lp_cover.jmx"/>
+      <page class="DialogWgt" size="500,350" type="dialog" name="PH StepByStep" file="ph stepbystep.jmx"/>
+      <page class="DialogWgt" size="700,400" type="dialog" name="RealTrendMeetkamer" file="realtrendmeetkamer.jmx"/>
+      <page class="DialogWgt" size="700,400" type="dialog" name="TrendWarmtePomp" file="trendwarmtepomp.jmx"/>
+      <page class="PageWgt" size="800,480" type="normal" name="Service5" file="service5.jmx"/>
+     </pages>
+     <templatePages>
+      <templatePage class="TemplatePageWgt" type="template" name="Template1" file="template1.jmx"/>
+      <templatePage class="TemplatePageWgt" type="template" name="Template2" file="template2.jmx"/>
+     </templatePages>
+    </category>
+   </categories>
+  </object>
+  <object class="PageMLTextMgrWgt" id="_ProjectMLTextMgr" mgrType="Project" mlFileName="">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang removable="false" langCode="en-NL" langId="L1" writingsystem="Any" name="NED" defaultFont="Roboto"/>
+    <lang removable="false" langCode="en-US" langId="L2" writingsystem="Any" name="ENG" defaultFont="Roboto"/>
+    <lang removable="false" langCode="fr-BE" langId="L3" writingsystem="Any" name="FRANS" defaultFont="Roboto"/>
+   </langs>
+   <MLTexts/>
+  </object>
+  <object class="PLCMgrWgt" id="_PLCMgr" fileName="protocols.xml">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="TagMgrWgt" id="_TagMgr" fileName="tags.xml">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+   <dataLinks>
+    <dataLink readWrite="R" attribute="GroupSource" sourceType="Data" dataSource="_IdalGrpSrc"/>
+    <dataLink readWrite="R/W" attribute="TagSource" sourceType="Data" dataSource="_IdalTagSrc"/>
+   </dataLinks>
+  </object>
+  <object class="IdalItemsWgt" threadEnable="true" retryCount="1" id="_IdalTagSrc" debugEnable="false">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="IdalGroupWgt" threadEnable="false" retryCount="1" id="_IdalGrpSrc" debugEnable="false">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="TrendMgrWgt" id="_TrendMgr" fileName="trends.xml">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="ReportMgrWgt" id="_ReportMgr" fileName="reports.xml">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="ReportPageMgrWgt" id="_ReportPageMgr">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+   <categories>
+    <category defaultsize="800,480" name="Native" technology="3" home="PageBlank.jmx"/>
+   </categories>
+  </object>
+  <object class="DictionaryMgrWgt" id="_DictionaryMgr" fileName="dictionaries.xml">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="PageMLTextMgrWgt" id="_AlarmMLTextMgr" mgrType="Alarm" mlFileName="alarms.xml">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="AlarmsMgrWgt" nCustomFields="2" id="_AlarmsMgr" fileName="alarms.xml">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+   <dataLinks>
+    <dataLink readWrite="R" attribute="AlarmSource" sourceType="Data" dataSource="_IdalAlarms"/>
+   </dataLinks>
+  </object>
+  <object class="EventMgrWgt" id="_EventMgr" fileName="eventconfig.xml">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="PageMLTextMgrWgt" id="_ScheduleMLTextMgr" mgrType="Scheduler" mlFileName="scheduler.xml">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="ScheduleMgrWgt" id="_ScheduleMgr" fileName="scheduler.xml">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="IdalAlarmsWgt" threadEnable="false" retryCount="1" id="_IdalAlarms" debugEnable="false">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="IdalUserMgmtWgt" id="_IdalUserMgmt">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="IdalMgrWgt" id="_IdalMgr">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="RecipeMgrWgt" id="_RecipeMgr">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+   <dataLinks>
+    <dataLink readWrite="R/W" attribute="recipeIOSrc" sourceType="Recipe" dataSource="_IdalRecipe"/>
+   </dataLinks>
+  </object>
+  <object class="AuditTrailMgrWgt" id="_AuditTrailMgr">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="DataTransferMgrWgt" syncOnInit="true" id="_DataTransferMgr">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="IndexedTagSetMgrWgt" id="_IndexedTagSetMgr">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="DBConnectorMgrWgt" id="_DBConnectorMgr">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="IdalDBConnectorWgt" id="_IdalDBConnector">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="UserGroupMgrWgt" id="_UserGroupMgr">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="UserMgrWgt" id="_UserMgr">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+   <dataLinks>
+    <dataLink readWrite="R" attribute="userSource" sourceType="Data" dataSource="_IdalUserMgmt"/>
+    <dataLink readWrite="W" attribute="userSource" sourceType="Data" dataSource="_IdalUserMgmt"/>
+   </dataLinks>
+  </object>
+  <object class="PrintMgrWgt" id="_PrintMgr">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="ThreadMgrWgt" id="_ThreadMgr">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+   <dataLinks>
+    <dataLink readWrite="W" attribute="WriteSource" sourceType="Data" dataSource="_IdalItems"/>
+   </dataLinks>
+  </object>
+  <object class="IdalItemsWgt" threadEnable="false" retryCount="1" id="_IdalItems" debugEnable="false">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="VariablesWgt" id="_VariablesWgt">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="RemoteClientMgrWgt" id="_RemoteClientMgr">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="SysPropMgrWgt" id="_SysPropMgr">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+   <dataLinks>
+    <dataLink readWrite="R/W" attribute="sysIOSrc" sourceType="Data" dataSource="_IdalSysProp"/>
+   </dataLinks>
+  </object>
+  <object class="ScreenMgrWgt" TimeOutInterval="180" id="_ScreenMgr">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="IdalRecipeWgt" id="_IdalRecipe">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="IdalSysPropWgt" id="_IdalSysProp">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="KeypadMgrWgt" id="_KeypadMgr">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="KeyExtMgrWgt" id="_KeyExtMgr">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="OPCUAMgrWgt" id="_OPCUAMgr">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="CorvinaMgrWgt" id="_CorvinaMgr">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="IFMqttMgrWgt" id="_IFMqttMgr">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="SignatureMgrWgt" id="_SignatureMgr">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+  <object class="GroupSubscribeWgt" id="eSMART107_LP_20230309@$GroupSubscrWgt@$0">
+   <wgtStyle width="0" x="0" y="0" height="0"/>
+  </object>
+ </object>
+</wgtPage>

@@ -1,0 +1,28 @@
+<scheduledActions>
+ <multiLangs>
+  <langs defLangId="L1" curLangId="L1">
+   <lang removable="false" langCode="en-NL" langId="L1" writingsystem="Any" name="NED" defaultFont="Roboto"/>
+   <lang removable="false" langCode="en-US" langId="L2" writingsystem="Any" name="ENG" defaultFont="Roboto"/>
+   <lang removable="false" langCode="fr-BE" langId="L3" writingsystem="Any" name="FRANS" defaultFont="Roboto"/>
+  </langs>
+  <MLTexts>
+   <MLText L1="Daily" L2="Daily" L3="Daily" id="16"/>
+   <MLText L1="Every" L2="Every" L3="Every" id="17"/>
+   <MLText L1="Monthly" L2="Monthly" L3="Monthly" id="18"/>
+   <MLText L1="Yearly" L2="Yearly" L3="Yearly" id="19"/>
+   <MLText L1="Hi-Res" L2="Hi-Res" L3="Hi-Res" id="20"/>
+   <MLText L1="Hourly" L2="Hourly" L3="Hourly" id="21"/>
+   <MLText L1="Weekly" L2="Weekly" L3="Weekly" id="22"/>
+   <MLText L1="Sunset+" L2="Sunset+" L3="Sunset+" id="23"/>
+   <MLText L1="Sunrise-" L2="Sunrise-" L3="Sunrise-" id="24"/>
+   <MLText L1="Sunset-" L2="Sunset-" L3="Sunset-" id="25"/>
+   <MLText L1="Sunrise+" L2="Sunrise+" L3="Sunrise+" id="26"/>
+   <MLText L1="Time" L2="Time" L3="Time" id="27"/>
+   <MLText L1="Random20" L2="Random20" L3="Random20" id="28"/>
+   <MLText L1="Random10" L2="Random10" L3="Random10" id="29"/>
+   <MLText L1="By Date" L2="By Date" L3="By Date" id="30"/>
+  </MLTexts>
+ </multiLangs>
+ <typeMLDesc ByDate="[30@Schedule]By Date" Daily="[16@Schedule]Daily" Every="[17@Schedule]Every" Monthly="[18@Schedule]Monthly" Yearly="[19@Schedule]Yearly" HiRes="[20@Schedule]Hi-Res" Hourly="[21@Schedule]Hourly" Weekly="[22@Schedule]Weekly"/>
+ <modeMLDesc SunsetPlus="[23@Schedule]Sunset+" SunriseMinus="[24@Schedule]Sunrise-" SunsetMinus="[25@Schedule]Sunset-" SunrisePlus="[26@Schedule]Sunrise+" Time="[27@Schedule]Time" Random20="[28@Schedule]Random20" Random10="[29@Schedule]Random10"/>
+</scheduledActions>

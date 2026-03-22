@@ -1,0 +1,7 @@
+<corvinaif>
+ <enableserver>false</enableserver>
+ <enablealarm>false</enablealarm>
+ <tagGroups>All</tagGroups>
+ <alarmGroups>All</alarmGroups>
+ <corvina/>
+</corvinaif>

@@ -1,0 +1,7 @@
+<defs>
+ <g id="custom_properties" showChildNodes="0" inherit="basicgroup_properties" attributeName="CheckBox">
+  <info></info>
+  <text eventName="onMouseClick" display="OnMouseClick Action" attributeType="event" menuBtn="true" layer="Propriétes" alias="*.hotspotbtn.onMouseClick" childPropName="action" childAttrName="onMouseClick.action" attributeName="Action">Action for Mouse Click Event</text>
+  <text display="Visible" attributeType="bool" layer="Propriétes" alias="*.plyrImg124.visibility" attachTag="true" adv="true" attributeName="CheckVisible"/>
+ </g>
+</defs>
