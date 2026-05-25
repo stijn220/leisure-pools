@@ -1,6 +1,6 @@
-# Leisure Pool Testmap
+# Leisure Pool dev tools
 
-Deze map is bedoeld om veilig dingen uit te proberen zonder je bestaande integratiecode aan te passen.
+Hulpscripts om de controller te onderzoeken zonder de integratiecode aan te passen.
 
 ## Wat doet `sse_probe.py`
 
@@ -13,15 +13,15 @@ Deze map is bedoeld om veilig dingen uit te proberen zonder je bestaande integra
 ## Voorbeeld
 
 ```bash
-python test/sse_probe.py --host 192.168.20.3 --username admin --password admin --duration 60
+python tools/sse_probe.py --host 192.168.20.3 --username admin --password admin --duration 60
 ```
 
-Alle output komt in een timestamp-map onder `test/output/`.
+Alle output komt in een timestamp-map onder `tools/output/`.
 
 ## Alleen SSE testen
 
 ```bash
-python test/sse_probe.py --host 192.168.20.3 --skip-page-dump --duration 60
+python tools/sse_probe.py --host 192.168.20.3 --skip-page-dump --duration 60
 ```
 
 ## Handige outputbestanden
