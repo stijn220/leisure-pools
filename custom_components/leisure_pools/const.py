@@ -1,4 +1,4 @@
-DOMAIN = "leisure_pool"
+DOMAIN = "leisure_pools"
 CONF_HOST = "host"
 CONF_USERNAME = "username"
 CONF_PASSWORD = "password"

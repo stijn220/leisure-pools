@@ -87,7 +87,7 @@ class LeisurePoolAPI:
             return
 
         self._running = True
-        self._sse_task = asyncio.create_task(self._sse_loop(), name=f"leisure_pool_sse_{self._host}")
+        self._sse_task = asyncio.create_task(self._sse_loop(), name=f"leisure_pools_sse_{self._host}")
 
     async def close(self) -> None:
         """Close background tasks and the HTTP session."""
@@ -347,6 +347,9 @@ class LeisurePoolAPI:
         return bool(changing) or (color not in (None, "", 0, "0"))
 
     def get_cover_position(self) -> int | None:
+        # Controller reports 0 when the cover is fully retracted (pool open) and
+        # 100 when it is fully extended (pool closed). Home Assistant expects
+        # the opposite convention (0 = closed, 100 = open), so invert here.
         position = self.get_tag_value("nPositieRolluik")
         if position in (None, ""):
             return None
@@ -354,7 +357,8 @@ class LeisurePoolAPI:
             raw_position = float(position)
             if raw_position > 100:
                 raw_position = raw_position / 10
-            return max(0, min(100, int(round(raw_position))))
+            clamped = max(0, min(100, int(round(raw_position))))
+            return 100 - clamped
         except (TypeError, ValueError):
             return None
 
@@ -371,9 +375,9 @@ class LeisurePoolAPI:
         position = self.get_cover_position()
         if position is not None:
             if position <= 5:
-                return "open"
-            if position >= 95:
                 return "closed"
+            if position >= 95:
+                return "open"
             return "partial"
 
         unlocked = self.get_tag_value("bCoverUnlocked")
